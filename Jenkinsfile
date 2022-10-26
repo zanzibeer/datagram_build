@@ -38,8 +38,8 @@ pipeline {
                     script {
 //                        sh "chmod -R 666 /kaniko/workspace"
 //                        sh "cd /kaniko/workspace/"
-                        sh "rm -rf /kaniko/workspace/*"
-                        sh "git clone https://github.com/zanzibeer/${params.CHART_NAME}_build.git /kaniko/workspace/"
+                        sh "rm -rf /kaniko/workspace/datagram_build"
+                        sh "git clone https://github.com/zanzibeer/${params.CHART_NAME}_build.git /kaniko/workspace/datagram_build"
                     }
                 }
             }
@@ -50,8 +50,8 @@ pipeline {
                 container('kaniko') {
                   script {
                     sh "ls -la /kaniko/workspace"
-                    sh "/kaniko/executor --dockerfile /kaniko/workspace/Dockerfile \
-                                     --context /kaniko/workspace \
+                    sh "/kaniko/executor --dockerfile /kaniko/workspace/datagram_build/Dockerfile \
+                                     --context /kaniko/workspace/datagram_build \
                                      --force \
                                      --destination=zanzibeer/${params.CHART_NAME}:${params.IMAGE_TAG}"
                   }
