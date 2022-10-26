@@ -36,9 +36,8 @@ pipeline {
             steps {
                 container('git') {
                     script {
-                        dir ("/kaniko/workspace/") {
-                            sh "git clone https://github.com/zanzibeer/${params.CHART_NAME}_build.git"
-                        }
+                        sh "cd /kaniko/workspace/
+                        sh "git clone https://github.com/zanzibeer/${params.CHART_NAME}_build.git"
                     }
                 }
             }
