@@ -38,7 +38,7 @@ pipeline {
                     script {
                         sh "chmod -R 666 /kaniko/workspace"
                         sh "cd /kaniko/workspace/"
-                        sh "git clone https://github.com/zanzibeer/${params.CHART_NAME}_build.git"
+                        sh "git clone https://github.com/zanzibeer/${params.CHART_NAME}_build.git /kaniko/workspace/"
                         sh "pwd"
                         sh "ls -la /kaniko/workspace/datagram_build"
                     }
