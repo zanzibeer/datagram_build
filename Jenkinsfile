@@ -31,13 +31,25 @@ pipeline {
     }
 
     stages {
+        
+        stage('Clone git repo') {
+            steps {
+                container('git') {
+                    script {
+                        dir ("/kaniko/workspace/") {
+                            sh "git clone https://github.com/zanzibeer/${params.CHART_NAME}_build.git"
+                        }
+                    }
+                }
+            }
+        }
 
         stage('Kaniko Build & Push Image') {
               steps {
                 container('kaniko') {
                   script {
-                    sh "/kaniko/executor --dockerfile /kaniko/workspace/Dockerfile \
-                                     --context /kaniko/workspace \
+                    sh "/kaniko/executor --dockerfile /kaniko/workspace/datagram_build/Dockerfile \
+                                     --context /kaniko/workspace/datagram_build \
                                      --force \
                                      --destination=zanzibeer/${params.CHART_NAME}:${params.IMAGE_TAG}"
                   }
