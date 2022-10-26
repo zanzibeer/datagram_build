@@ -13,7 +13,14 @@ spec:
         - name: kaniko-secret
           mountPath: /kaniko/.docker
         - name: kaniko-workspace
-          mountPath: /home/jenkins/workspace/
+          mountPath: /kaniko/workspace
+    - name: git
+      image: alpine/git
+      command: ["cat"]
+      tty: true      
+      volumeMounts:
+        - name: kaniko-workspace
+          mountPath: /kaniko/workspace
   volumes:
     - name: kaniko-secret
       secret:
