@@ -18,8 +18,10 @@ properties([
 // def registryIp
 
 pipeline {
+
     options {
-    ansiColor('xterm')
+        ansiColor('xterm')
+        skipDefaultCheckout true
     }
 
     agent {
@@ -40,9 +42,6 @@ spec:
     tty: true
 """
         }
-    }
-    options {
-        skipDefaultCheckout true
     }
 
     stages {
