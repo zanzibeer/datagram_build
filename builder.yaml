@@ -22,5 +22,5 @@ spec:
           - key: .dockerconfigjson
             path: config.json
     - name: kaniko-workspace
-          persistentVolumeClaim:
-            claimName: jenkins-build
+      persistentVolumeClaim:
+        claimName: jenkins-build
