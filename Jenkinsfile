@@ -36,12 +36,10 @@ pipeline {
               steps {
                 container('kaniko') {
                   script {
-                    sh "
-                    /kaniko/executor --dockerfile `pwd`/Dockerfile \
+                    sh "/kaniko/executor --dockerfile `pwd`/Dockerfile \
                                      --context `pwd` \
                                      --force \
-                                     --destination=zanzibeer/${params.CHART_NAME}:${params.IMAGE_TAG}
-                    "
+                                     --destination=zanzibeer/${params.CHART_NAME}:${params.IMAGE_TAG}"
                   }
                 }
               }
