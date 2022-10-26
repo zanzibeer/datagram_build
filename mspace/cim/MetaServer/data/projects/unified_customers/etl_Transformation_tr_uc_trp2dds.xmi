@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="ASCII"?>
+<etl:Transformation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:etl="http://www.neoflex.ru/meta/etl" name="tr_uc_trp2dds" label="tr_uc_trp2dds" sparkVersion="SPARK3" jsonView="{&quot;cells&quot;:[{&quot;type&quot;:&quot;devs.transformation.SqlSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:28.484375,&quot;y&quot;:214.99999084472657},&quot;angle&quot;:0,&quot;id&quot;:&quot;ed5971dd-d127-4d0c-aa62-e5363e521e06&quot;,&quot;name&quot;:&quot;TRP_S04_DIM_CLIENT&quot;,&quot;z&quot;:1,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;TRP_S04_DIM_CLIENT&quot;}}},{&quot;type&quot;:&quot;devs.transformation.SqlSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:28.484375,&quot;y&quot;:344.99999084472654},&quot;angle&quot;:0,&quot;id&quot;:&quot;5f1aa427-1cbd-4906-8f19-61928ac1dd0a&quot;,&quot;name&quot;:&quot;DIM_CLIENT&quot;,&quot;z&quot;:2,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;DIM_CLIENT&quot;}}},{&quot;type&quot;:&quot;devs.transformation.SqlSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:390,&quot;y&quot;:600},&quot;angle&quot;:0,&quot;id&quot;:&quot;d76eafaa-00b8-4b8c-9725-67f0cc37986d&quot;,&quot;name&quot;:&quot;SQL_17&quot;,&quot;z&quot;:3,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Last DIM_CLIEN_TECH&quot;}}},{&quot;type&quot;:&quot;devs.transformation.SparkSQL&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;sqlin&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}},{&quot;id&quot;:&quot;0&quot;,&quot;multiple&quot;:true,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;TRP&quot;,&quot;visibility&quot;:&quot;visible&quot;},&quot;circle&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}},{&quot;id&quot;:&quot;1&quot;,&quot;multiple&quot;:true,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;DIM&quot;,&quot;visibility&quot;:&quot;visible&quot;},&quot;circle&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}]},&quot;position&quot;:{&quot;x&quot;:158.484375,&quot;y&quot;:279.99999084472654},&quot;angle&quot;:0,&quot;id&quot;:&quot;3f958765-a190-418e-8dbd-0b74fc961301&quot;,&quot;name&quot;:&quot;Spark_SQL_3&quot;,&quot;z&quot;:4,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Spark_SQL_3&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Selection&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:288.484375,&quot;y&quot;:204.99999084472657},&quot;angle&quot;:0,&quot;id&quot;:&quot;be70ce5c-52cd-4452-b01a-f526ca0373b4&quot;,&quot;name&quot;:&quot;Selection_6&quot;,&quot;z&quot;:5,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;New DIM_CLIENT&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Selection&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:288.484375,&quot;y&quot;:344.99999084472654},&quot;angle&quot;:0,&quot;id&quot;:&quot;59f9ca11-aa77-4c47-b8be-37ea8a04b0c6&quot;,&quot;name&quot;:&quot;Selection_8&quot;,&quot;z&quot;:6,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Existent DIM_CLIENT&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Projection&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:630,&quot;y&quot;:570},&quot;angle&quot;:0,&quot;id&quot;:&quot;5b63e677-6a80-453a-92fa-e59a0b407c8a&quot;,&quot;name&quot;:&quot;Projection_12&quot;,&quot;z&quot;:7,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Add EFFECTIVE_TO_DT&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Projection&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:750,&quot;y&quot;:420},&quot;angle&quot;:0,&quot;id&quot;:&quot;b3c5e707-ef22-4f8e-abae-c2b78e5fd25c&quot;,&quot;name&quot;:&quot;Projection_13&quot;,&quot;z&quot;:8,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Add EFFECTIVE_TO&quot;}}},{&quot;type&quot;:&quot;devs.transformation.SparkSQL&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;sqlin&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}},{&quot;id&quot;:&quot;0&quot;,&quot;multiple&quot;:true,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;TRP&quot;,&quot;visibility&quot;:&quot;visible&quot;},&quot;circle&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}},{&quot;id&quot;:&quot;1&quot;,&quot;multiple&quot;:true,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;DIM&quot;,&quot;visibility&quot;:&quot;visible&quot;},&quot;circle&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}]},&quot;position&quot;:{&quot;x&quot;:510,&quot;y&quot;:480},&quot;angle&quot;:0,&quot;id&quot;:&quot;ac7529bb-5a4b-445c-a33a-ac3a0b49777c&quot;,&quot;name&quot;:&quot;Spark_SQL_18&quot;,&quot;z&quot;:9,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Spark_SQL_18&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Selection&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:630,&quot;y&quot;:420},&quot;angle&quot;:0,&quot;id&quot;:&quot;acae3898-5e26-43b1-a0d0-8adbb9f0f776&quot;,&quot;name&quot;:&quot;Selection_23&quot;,&quot;z&quot;:10,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Existent TECH&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Projection&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:480,&quot;y&quot;:210},&quot;angle&quot;:0,&quot;id&quot;:&quot;71353852-ea5f-4c08-9828-af7d290c0f03&quot;,&quot;name&quot;:&quot;Projection_26&quot;,&quot;z&quot;:11,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Projection_26&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Projection&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:443,&quot;y&quot;:346},&quot;angle&quot;:0,&quot;id&quot;:&quot;d8065ccd-ab60-45d2-a973-903e9fa7cf4a&quot;,&quot;name&quot;:&quot;Projection_27&quot;,&quot;z&quot;:12,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Projection_27&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Projection&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:390,&quot;y&quot;:450},&quot;angle&quot;:0,&quot;id&quot;:&quot;376d61d1-5250-4a14-be27-25fed70383fc&quot;,&quot;name&quot;:&quot;Projection_29&quot;,&quot;z&quot;:13,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Projection_29&quot;}}},{&quot;type&quot;:&quot;devs.transformation.TableTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:660,&quot;y&quot;:180},&quot;angle&quot;:0,&quot;id&quot;:&quot;3bfa0fe4-569f-4d52-8fd5-c65524d1012a&quot;,&quot;name&quot;:&quot;Table_1&quot;,&quot;z&quot;:14,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;DIM_CLIENT insert&quot;}}},{&quot;type&quot;:&quot;devs.transformation.TableTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:870,&quot;y&quot;:420},&quot;angle&quot;:0,&quot;id&quot;:&quot;d2dcc53d-1e0b-4d61-838e-b22db98c0063&quot;,&quot;name&quot;:&quot;Table_10&quot;,&quot;z&quot;:15,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;DIM_CLIEN_TECH update&quot;}}},{&quot;type&quot;:&quot;devs.transformation.TableTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:780,&quot;y&quot;:600},&quot;angle&quot;:0,&quot;id&quot;:&quot;fd1e8950-cfda-427e-b54f-277c3eb5550a&quot;,&quot;name&quot;:&quot;Table_11&quot;,&quot;z&quot;:16,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;DIM_CLIEN_TECH insert&quot;}}},{&quot;type&quot;:&quot;devs.transformation.TableTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:600,&quot;y&quot;:300},&quot;angle&quot;:0,&quot;id&quot;:&quot;7ff3d2cb-f164-46b4-a268-ef3d40154167&quot;,&quot;name&quot;:&quot;Table_27&quot;,&quot;z&quot;:17,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;DIM_CLIENT update&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;ed5971dd-d127-4d0c-aa62-e5363e521e06&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;3f958765-a190-418e-8dbd-0b74fc961301&quot;,&quot;port&quot;:&quot;0&quot;},&quot;id&quot;:&quot;8a3957e1-5e04-4924-b55f-536e95349149&quot;,&quot;z&quot;:18,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;5f1aa427-1cbd-4906-8f19-61928ac1dd0a&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;3f958765-a190-418e-8dbd-0b74fc961301&quot;,&quot;port&quot;:&quot;1&quot;},&quot;id&quot;:&quot;8871bbb3-e8a4-45af-977f-0824f0b6ca71&quot;,&quot;z&quot;:19,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;3f958765-a190-418e-8dbd-0b74fc961301&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;be70ce5c-52cd-4452-b01a-f526ca0373b4&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;2e1adcda-07d5-4772-8d1e-812e18a86a31&quot;,&quot;z&quot;:20,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;3f958765-a190-418e-8dbd-0b74fc961301&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;59f9ca11-aa77-4c47-b8be-37ea8a04b0c6&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;a8542f44-62b7-404c-ad5d-1726b85649f6&quot;,&quot;z&quot;:21,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;d76eafaa-00b8-4b8c-9725-67f0cc37986d&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;ac7529bb-5a4b-445c-a33a-ac3a0b49777c&quot;,&quot;port&quot;:&quot;1&quot;},&quot;id&quot;:&quot;6b9595b3-cd14-4dbe-83cd-6456dc9966be&quot;,&quot;z&quot;:22,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;ac7529bb-5a4b-445c-a33a-ac3a0b49777c&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;acae3898-5e26-43b1-a0d0-8adbb9f0f776&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;6d9daef6-9d67-4b3a-83db-a35563837349&quot;,&quot;z&quot;:23,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;acae3898-5e26-43b1-a0d0-8adbb9f0f776&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;b3c5e707-ef22-4f8e-abae-c2b78e5fd25c&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;46c69b9c-c0f7-4f6b-97ea-f45d38e70249&quot;,&quot;z&quot;:24,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;ac7529bb-5a4b-445c-a33a-ac3a0b49777c&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;5b63e677-6a80-453a-92fa-e59a0b407c8a&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;9a12414a-4ce1-4567-879f-1d9dd133c3bb&quot;,&quot;z&quot;:25,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;be70ce5c-52cd-4452-b01a-f526ca0373b4&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;71353852-ea5f-4c08-9828-af7d290c0f03&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;39d0e56e-8aed-4f18-9400-9bd515f9b059&quot;,&quot;z&quot;:26,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;b3c5e707-ef22-4f8e-abae-c2b78e5fd25c&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;d2dcc53d-1e0b-4d61-838e-b22db98c0063&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;24d57176-d5c1-4bcf-a887-f31d2521ca76&quot;,&quot;z&quot;:27,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;59f9ca11-aa77-4c47-b8be-37ea8a04b0c6&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;d8065ccd-ab60-45d2-a973-903e9fa7cf4a&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;8e0da4d7-6a11-46bd-91b2-d2fe535c6687&quot;,&quot;z&quot;:28,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;59f9ca11-aa77-4c47-b8be-37ea8a04b0c6&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;376d61d1-5250-4a14-be27-25fed70383fc&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;e630f224-3181-475d-8411-23d1e3643eb0&quot;,&quot;z&quot;:29,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;376d61d1-5250-4a14-be27-25fed70383fc&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;ac7529bb-5a4b-445c-a33a-ac3a0b49777c&quot;,&quot;port&quot;:&quot;0&quot;},&quot;id&quot;:&quot;cb8e3173-f5c6-490b-ab9f-3c658ea9a296&quot;,&quot;z&quot;:30,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;5b63e677-6a80-453a-92fa-e59a0b407c8a&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;fd1e8950-cfda-427e-b54f-277c3eb5550a&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;a4991f39-dabf-43c4-a717-a35503be1f7a&quot;,&quot;z&quot;:31,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;71353852-ea5f-4c08-9828-af7d290c0f03&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;3bfa0fe4-569f-4d52-8fd5-c65524d1012a&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;e371857e-4e3c-457c-b740-d986e6179fdf&quot;,&quot;z&quot;:32,&quot;attrs&quot;:{}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;d8065ccd-ab60-45d2-a973-903e9fa7cf4a&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;7ff3d2cb-f164-46b4-a268-ef3d40154167&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;4caf1cbc-7b69-4b65-a756-48a5047fbac7&quot;,&quot;z&quot;:33,&quot;attrs&quot;:{}}]}">
+  <targets xsi:type="etl:TableTarget" name="Table_1" label="DIM_CLIENT insert" tableName="DIM_CLIENT">
+    <inputPort name="Table_1in">
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BIC_CD" targetColumnName="BIC_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CLIENT_UID" targetColumnName="CLIENT_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="HASH_TAG" targetColumnName="HASH_TAG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="INDUSTRY_NM" targetColumnName="INDUSTRY_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="INN_CD" targetColumnName="INN_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="IS_DELETE_FLG" targetColumnName="IS_DELETE_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="KIO_CD" targetColumnName="KIO_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="LICENSE_NUM" targetColumnName="LICENSE_NUM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="LOAD_ID" targetColumnName="LOAD_ID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_ENG_NM" targetColumnName="NAME_ENG_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_NM" targetColumnName="NAME_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_ORIG_NM" targetColumnName="NAME_ORIG_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_RUS_NM" targetColumnName="NAME_RUS_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="OGRN_CD" targetColumnName="OGRN_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="PROCESSED_DTTM" targetColumnName="PROCESSED_DTTM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_BUSINESS_CATEGORY_UID" targetColumnName="REL_BUSINESS_CATEGORY_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_CLIENT_GROUP_UID" targetColumnName="REL_CLIENT_GROUP_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_CLIENT_TYPE_UID" targetColumnName="REL_CLIENT_TYPE_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_COUNTRY_UID" targetColumnName="REL_COUNTRY_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_INDUSTRY_UID" targetColumnName="REL_INDUSTRY_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_MEMBER_UID" targetColumnName="REL_MEMBER_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="RESIDENT_FLG" targetColumnName="RESIDENT_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="SRC_STM_ID" targetColumnName="SRC_STM_ID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="SUBHOLDING" targetColumnName="SUBHOLDING"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="SWIFT_CD" targetColumnName="SWIFT_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="TECH_CLIENT_FLG" targetColumnName="TECH_CLIENT_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="UNIFIED_CLIENT_FLG" targetColumnName="UNIFIED_CLIENT_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="UNQ_SRC_ID" targetColumnName="UNQ_SRC_ID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="WORKFLOW_RUN_ID" targetColumnName="WORKFLOW_RUN_ID"/>
+  </targets>
+  <targets xsi:type="etl:TableTarget" name="Table_10" label="DIM_CLIEN_TECH update" tableName="DIM_CLIEN_TECH" targetType="UPDATE">
+    <inputPort name="Table_10in">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="EFFECTIVE_TO_DT" dataTypeDomain="DATETIME"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CLIENT_UID" targetColumnName="CLIENT_UID" keyField="true"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="WORKFLOW_RUN_ID" targetColumnName="CLOSED_WORKFLOW_RUN_ID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="EFFECTIVE_FROM_DT" targetColumnName="EFFECTIVE_FROM_DT" keyField="true"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="EFFECTIVE_TO_DT" targetColumnName="EFFECTIVE_TO_DT"/>
+  </targets>
+  <targets xsi:type="etl:TableTarget" name="Table_11" label="DIM_CLIEN_TECH insert" tableName="DIM_CLIEN_TECH">
+    <inputPort name="Table_11in">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME"/>
+      <fields name="EFFECTIVE_TO_DT" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BIC_CD" targetColumnName="BIC_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CLIENT_UID" targetColumnName="CLIENT_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="EFFECTIVE_FROM_DT" targetColumnName="EFFECTIVE_FROM_DT"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="EFFECTIVE_TO_DT" targetColumnName="EFFECTIVE_TO_DT"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_ENG_NM" targetColumnName="FULL_NAME_ENG_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_ORIG_NM" targetColumnName="FULL_NAME_ORIG_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="HASH_TAG" targetColumnName="HASH_TAG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="INN_CD" targetColumnName="INN_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="IS_DELETE_FLG" targetColumnName="IS_DELETE_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="KIO_CD" targetColumnName="KIO_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="LICENSE_NUM" targetColumnName="LICENSE_NUM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_NM" targetColumnName="NAME_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="OGRN_CD" targetColumnName="OGRN_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="PROCESSED_DTTM" targetColumnName="PROCESSED_DTTM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_BUSINESS_CATEGORY_UID" targetColumnName="REL_BUSINESS_CATEGORY_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_CLIENT_GROUP_UID" targetColumnName="REL_CLIENT_GROUP_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_CLIENT_TYPE_UID" targetColumnName="REL_CLIENT_TYPE_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_COUNTRY_UID" targetColumnName="REL_COUNTRY_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_INDUSTRY_UID" targetColumnName="REL_INDUSTRY_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_MEMBER_UID" targetColumnName="REL_MEMBER_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="RESIDENT_FLG" targetColumnName="RESIDENT_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="SRC_STM_ID" targetColumnName="SRC_STM_ID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="SWIFT_CD" targetColumnName="SWIFT_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="TECH_CLIENT_FLG" targetColumnName="TECH_CLIENT_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="UNIFIED_CLIENT_FLG" targetColumnName="UNIFIED_CLIENT_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="UNQ_SRC_ID" targetColumnName="UNQ_SRC_ID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="WORKFLOW_RUN_ID" targetColumnName="WORKFLOW_RUN_ID"/>
+  </targets>
+  <targets xsi:type="etl:TableTarget" name="Table_27" label="DIM_CLIENT update" tableName="DIM_CLIENT" targetType="UPDATE">
+    <inputPort name="Table_1in">
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BIC_CD" targetColumnName="BIC_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CLIENT_UID" targetColumnName="CLIENT_UID" keyField="true"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="HASH_TAG" targetColumnName="HASH_TAG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="INDUSTRY_NM" targetColumnName="INDUSTRY_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="INN_CD" targetColumnName="INN_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="IS_DELETE_FLG" targetColumnName="IS_DELETE_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="KIO_CD" targetColumnName="KIO_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="LICENSE_NUM" targetColumnName="LICENSE_NUM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="LOAD_ID" targetColumnName="LOAD_ID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_ENG_NM" targetColumnName="NAME_ENG_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_NM" targetColumnName="NAME_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_ORIG_NM" targetColumnName="NAME_ORIG_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME_RUS_NM" targetColumnName="NAME_RUS_NM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="OGRN_CD" targetColumnName="OGRN_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="PROCESSED_DTTM" targetColumnName="PROCESSED_DTTM"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_BUSINESS_CATEGORY_UID" targetColumnName="REL_BUSINESS_CATEGORY_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_CLIENT_GROUP_UID" targetColumnName="REL_CLIENT_GROUP_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_CLIENT_TYPE_UID" targetColumnName="REL_CLIENT_TYPE_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_COUNTRY_UID" targetColumnName="REL_COUNTRY_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_INDUSTRY_UID" targetColumnName="REL_INDUSTRY_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="REL_MEMBER_UID" targetColumnName="REL_MEMBER_UID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="RESIDENT_FLG" targetColumnName="RESIDENT_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="SRC_STM_ID" targetColumnName="SRC_STM_ID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="SUBHOLDING" targetColumnName="SUBHOLDING"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="SWIFT_CD" targetColumnName="SWIFT_CD"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="TECH_CLIENT_FLG" targetColumnName="TECH_CLIENT_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="UNIFIED_CLIENT_FLG" targetColumnName="UNIFIED_CLIENT_FLG"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="UNQ_SRC_ID" targetColumnName="UNQ_SRC_ID"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="WORKFLOW_RUN_ID" targetColumnName="WORKFLOW_RUN_ID"/>
+  </targets>
+  <transformationSteps xsi:type="etl:SparkSQL" name="Spark_SQL_3" label="Spark_SQL_3" checkpoint="true" statement="select&#xA;TRP.CLIENT_UID as TRP_CLIENT_UID,&#xA;TRP.BIC_CD as TRP_BIC_CD,&#xA;TRP.HASH_TAG as TRP_HASH_TAG,&#xA;TRP.INDUSTRY_NM as TRP_INDUSTRY_NM,&#xA;TRP.INN_CD as TRP_INN_CD,&#xA;TRP.IS_DELETE_FLG as TRP_IS_DELETE_FLG,&#xA;TRP.KIO_CD as TRP_KIO_CD,&#xA;TRP.LICENSE_NUM as TRP_LICENSE_NUM,&#xA;TRP.LOAD_ID as TRP_LOAD_ID,&#xA;TRP.NAME_ENG_NM as TRP_NAME_ENG_NM,&#xA;TRP.NAME_NM as TRP_NAME_NM,&#xA;TRP.NAME_ORIG_NM as TRP_NAME_ORIG_NM,&#xA;TRP.NAME_RUS_NM as TRP_NAME_RUS_NM,&#xA;TRP.OGRN_CD as TRP_OGRN_CD,&#xA;TRP.PROCESSED_DTTM as TRP_PROCESSED_DTTM,&#xA;TRP.REL_BUSINESS_CATEGORY_UID as TRP_REL_BUSINESS_CATEGORY_UID,&#xA;TRP.REL_CLIENT_GROUP_UID as TRP_REL_CLIENT_GROUP_UID,&#xA;TRP.REL_CLIENT_TYPE_UID as TRP_REL_CLIENT_TYPE_UID,&#xA;TRP.REL_COUNTRY_UID as TRP_REL_COUNTRY_UID,&#xA;TRP.REL_INDUSTRY_UID as TRP_REL_INDUSTRY_UID,&#xA;TRP.REL_MEMBER_UID as TRP_REL_MEMBER_UID,&#xA;TRP.RESIDENT_FLG as TRP_RESIDENT_FLG,&#xA;TRP.SRC_STM_ID as TRP_SRC_STM_ID,&#xA;TRP.SUBHOLDING as TRP_SUBHOLDING,&#xA;TRP.SWIFT_CD as TRP_SWIFT_CD,&#xA;TRP.TECH_CLIENT_FLG as TRP_TECH_CLIENT_FLG,&#xA;TRP.UNIFIED_CLIENT_FLG as TRP_UNIFIED_CLIENT_FLG,&#xA;TRP.UNQ_SRC_ID as TRP_UNQ_SRC_ID,&#xA;TRP.WORKFLOW_RUN_ID as TRP_WORKFLOW_RUN_ID,&#xA;DIM.CLIENT_UID as DIM_CLIENT_UID,&#xA;DIM.BIC_CD as DIM_BIC_CD,&#xA;DIM.HASH_TAG as DIM_HASH_TAG,&#xA;DIM.INDUSTRY_NM as DIM_INDUSTRY_NM,&#xA;DIM.INN_CD as DIM_INN_CD,&#xA;DIM.IS_DELETE_FLG as DIM_IS_DELETE_FLG,&#xA;DIM.KIO_CD as DIM_KIO_CD,&#xA;DIM.LICENSE_NUM as DIM_LICENSE_NUM,&#xA;DIM.LOAD_ID as DIM_LOAD_ID,&#xA;DIM.NAME_ENG_NM as DIM_NAME_ENG_NM,&#xA;DIM.NAME_NM as DIM_NAME_NM,&#xA;DIM.NAME_ORIG_NM as DIM_NAME_ORIG_NM,&#xA;DIM.NAME_RUS_NM as DIM_NAME_RUS_NM,&#xA;DIM.OGRN_CD as DIM_OGRN_CD,&#xA;DIM.PROCESSED_DTTM as DIM_PROCESSED_DTTM,&#xA;DIM.REL_BUSINESS_CATEGORY_UID as DIM_REL_BUSINESS_CATEGORY_UID,&#xA;DIM.REL_CLIENT_GROUP_UID as DIM_REL_CLIENT_GROUP_UID,&#xA;DIM.REL_CLIENT_TYPE_UID as DIM_REL_CLIENT_TYPE_UID,&#xA;DIM.REL_COUNTRY_UID as DIM_REL_COUNTRY_UID,&#xA;DIM.REL_INDUSTRY_UID as DIM_REL_INDUSTRY_UID,&#xA;DIM.REL_MEMBER_UID as DIM_REL_MEMBER_UID,&#xA;DIM.RESIDENT_FLG as DIM_RESIDENT_FLG,&#xA;DIM.SRC_STM_ID as DIM_SRC_STM_ID,&#xA;DIM.SUBHOLDING as DIM_SUBHOLDING,&#xA;DIM.SWIFT_CD as DIM_SWIFT_CD,&#xA;DIM.TECH_CLIENT_FLG as DIM_TECH_CLIENT_FLG,&#xA;DIM.UNIFIED_CLIENT_FLG as DIM_UNIFIED_CLIENT_FLG,&#xA;DIM.UNQ_SRC_ID as DIM_UNQ_SRC_ID,&#xA;DIM.WORKFLOW_RUN_ID as DIM_WORKFLOW_RUN_ID&#xA;from TRP&#xA;left join DIM on TRP.CLIENT_UID = DIM.CLIENT_UID&#xA;">
+    <outputPort name="Spark_SQL_3out">
+      <fields name="TRP_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="TRP_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="TRP_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="TRP_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="DIM_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="DIM_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="DIM_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="DIM_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </outputPort>
+    <sqlPorts name="TRP_S04_DIM_CLIENT" alias="TRP">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </sqlPorts>
+    <sqlPorts name="DIM_CLIENT" alias="DIM">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </sqlPorts>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Selection" name="Selection_6" label="New DIM_CLIENT" expression="DIM_CLIENT_UID is null">
+    <outputPort name="Selection_6out">
+      <fields name="TRP_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="TRP_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="TRP_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="TRP_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="DIM_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="DIM_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="DIM_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="DIM_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </outputPort>
+    <inputPort name="Selection_6in">
+      <fields name="TRP_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="TRP_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="TRP_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="TRP_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="DIM_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="DIM_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="DIM_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="DIM_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Selection" name="Selection_8" label="Existent DIM_CLIENT" checkpoint="true" expression="DIM_CLIENT_UID is not null">
+    <outputPort name="Selection_8out">
+      <fields name="TRP_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="TRP_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="TRP_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="TRP_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="DIM_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="DIM_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="DIM_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="DIM_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </outputPort>
+    <inputPort name="Selection_8in">
+      <fields name="TRP_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="TRP_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="TRP_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="TRP_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="DIM_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="DIM_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="DIM_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="DIM_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Projection" name="Projection_12" label="Add EFFECTIVE_TO_DT">
+    <outputPort name="Projection_12out">
+      <fields xsi:type="etl:ProjectionField" name="BIC_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.0"/>
+      <fields xsi:type="etl:ProjectionField" name="CLIENT_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.1"/>
+      <fields xsi:type="etl:ProjectionField" name="HASH_TAG" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.2"/>
+      <fields xsi:type="etl:ProjectionField" name="INDUSTRY_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.3"/>
+      <fields xsi:type="etl:ProjectionField" name="INN_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.4"/>
+      <fields xsi:type="etl:ProjectionField" name="IS_DELETE_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.5"/>
+      <fields xsi:type="etl:ProjectionField" name="KIO_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.6"/>
+      <fields xsi:type="etl:ProjectionField" name="LICENSE_NUM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.7"/>
+      <fields xsi:type="etl:ProjectionField" name="LOAD_ID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.8"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_ENG_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.9"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.10"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_ORIG_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.11"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_RUS_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.12"/>
+      <fields xsi:type="etl:ProjectionField" name="OGRN_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.13"/>
+      <fields xsi:type="etl:ProjectionField" name="PROCESSED_DTTM" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.3/@inputPort/@fields.14"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.15"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.16"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.17"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.18"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.19"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_MEMBER_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.20"/>
+      <fields xsi:type="etl:ProjectionField" name="RESIDENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.21"/>
+      <fields xsi:type="etl:ProjectionField" name="SRC_STM_ID" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.22"/>
+      <fields xsi:type="etl:ProjectionField" name="SUBHOLDING" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.23"/>
+      <fields xsi:type="etl:ProjectionField" name="SWIFT_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.24"/>
+      <fields xsi:type="etl:ProjectionField" name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.25"/>
+      <fields xsi:type="etl:ProjectionField" name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.26"/>
+      <fields xsi:type="etl:ProjectionField" name="UNQ_SRC_ID" dataTypeDomain="STRING" sourceFields="//@transformationSteps.3/@inputPort/@fields.27"/>
+      <fields xsi:type="etl:ProjectionField" name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.3/@inputPort/@fields.28"/>
+      <fields xsi:type="etl:ProjectionField" name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.3/@inputPort/@fields.30"/>
+      <fields xsi:type="etl:ProjectionField" name="EFFECTIVE_TO_DT" dataTypeDomain="DATETIME" expression="null" fieldOperationType="SQL"/>
+      <fields xsi:type="etl:ProjectionField" name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.3/@inputPort/@fields.30"/>
+    </outputPort>
+    <inputPort name="Projection_12in">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+    </inputPort>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Projection" name="Projection_13" label="Add EFFECTIVE_TO">
+    <outputPort name="Projection_13out">
+      <fields xsi:type="etl:ProjectionField" name="BIC_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.0"/>
+      <fields xsi:type="etl:ProjectionField" name="CLIENT_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.1"/>
+      <fields xsi:type="etl:ProjectionField" name="HASH_TAG" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.2"/>
+      <fields xsi:type="etl:ProjectionField" name="INDUSTRY_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.3"/>
+      <fields xsi:type="etl:ProjectionField" name="INN_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.4"/>
+      <fields xsi:type="etl:ProjectionField" name="IS_DELETE_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.5"/>
+      <fields xsi:type="etl:ProjectionField" name="KIO_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.6"/>
+      <fields xsi:type="etl:ProjectionField" name="LICENSE_NUM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.7"/>
+      <fields xsi:type="etl:ProjectionField" name="LOAD_ID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.8"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_ENG_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.9"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.10"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_ORIG_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.11"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_RUS_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.12"/>
+      <fields xsi:type="etl:ProjectionField" name="OGRN_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.13"/>
+      <fields xsi:type="etl:ProjectionField" name="PROCESSED_DTTM" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.4/@inputPort/@fields.14"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.15"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.16"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.17"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.18"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.19"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_MEMBER_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.20"/>
+      <fields xsi:type="etl:ProjectionField" name="RESIDENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.21"/>
+      <fields xsi:type="etl:ProjectionField" name="SRC_STM_ID" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.22"/>
+      <fields xsi:type="etl:ProjectionField" name="SUBHOLDING" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.23"/>
+      <fields xsi:type="etl:ProjectionField" name="SWIFT_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.24"/>
+      <fields xsi:type="etl:ProjectionField" name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.25"/>
+      <fields xsi:type="etl:ProjectionField" name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.26"/>
+      <fields xsi:type="etl:ProjectionField" name="UNQ_SRC_ID" dataTypeDomain="STRING" sourceFields="//@transformationSteps.4/@inputPort/@fields.27"/>
+      <fields xsi:type="etl:ProjectionField" name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.4/@inputPort/@fields.28"/>
+      <fields xsi:type="etl:ProjectionField" name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.4/@inputPort/@fields.29"/>
+      <fields xsi:type="etl:ProjectionField" name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.4/@inputPort/@fields.30"/>
+      <fields xsi:type="etl:ProjectionField" name="EFFECTIVE_TO_DT" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.4/@inputPort/@fields.30" expression="&quot;&quot;"/>
+    </outputPort>
+    <inputPort name="Projection_13in">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+    </inputPort>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:SparkSQL" name="Spark_SQL_18" label="Spark_SQL_18" checkpoint="true" statement="select&#xA;BIC_CD,&#xA;TRP.CLIENT_UID as CLIENT_UID,&#xA;HASH_TAG,&#xA;INDUSTRY_NM,&#xA;INN_CD,&#xA;IS_DELETE_FLG,&#xA;KIO_CD,&#xA;LICENSE_NUM,&#xA;LOAD_ID,&#xA;NAME_ENG_NM,&#xA;NAME_NM,&#xA;NAME_ORIG_NM,&#xA;NAME_RUS_NM,&#xA;OGRN_CD,&#xA;PROCESSED_DTTM,&#xA;REL_BUSINESS_CATEGORY_UID,&#xA;REL_CLIENT_GROUP_UID,&#xA;REL_CLIENT_TYPE_UID,&#xA;REL_COUNTRY_UID,&#xA;REL_INDUSTRY_UID,&#xA;REL_MEMBER_UID,&#xA;RESIDENT_FLG,&#xA;SRC_STM_ID,&#xA;SUBHOLDING,&#xA;SWIFT_CD,&#xA;TECH_CLIENT_FLG,&#xA;UNIFIED_CLIENT_FLG,&#xA;UNQ_SRC_ID,&#xA;WORKFLOW_RUN_ID,&#xA;DIM.EFFECTIVE_FROM_DT as EFFECTIVE_FROM_DT,&#xA;TRP_PROCESSED_DTTM&#xA;from TRP&#xA;left join DIM on TRP.CLIENT_UID = DIM.CLIENT_UID&#xA;">
+    <outputPort name="Spark_SQL_18out">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+    </outputPort>
+    <sqlPorts name="TRP" alias="TRP">
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+    </sqlPorts>
+    <sqlPorts name="DIM" alias="DIM">
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME"/>
+    </sqlPorts>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Selection" name="Selection_23" label="Existent TECH" expression="EFFECTIVE_FROM_DT is not null">
+    <outputPort name="Selection_23out">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+    </outputPort>
+    <inputPort name="Selection_23in">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+    </inputPort>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Projection" name="Projection_26" label="Projection_26">
+    <outputPort name="Projection_26out">
+      <fields xsi:type="etl:ProjectionField" name="CLIENT_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.0"/>
+      <fields xsi:type="etl:ProjectionField" name="BIC_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.1"/>
+      <fields xsi:type="etl:ProjectionField" name="HASH_TAG" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.2"/>
+      <fields xsi:type="etl:ProjectionField" name="INDUSTRY_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.3"/>
+      <fields xsi:type="etl:ProjectionField" name="INN_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.4"/>
+      <fields xsi:type="etl:ProjectionField" name="IS_DELETE_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.5"/>
+      <fields xsi:type="etl:ProjectionField" name="KIO_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.6"/>
+      <fields xsi:type="etl:ProjectionField" name="LICENSE_NUM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.7"/>
+      <fields xsi:type="etl:ProjectionField" name="LOAD_ID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.8"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_ENG_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.9"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.10"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_ORIG_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.11"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_RUS_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.12"/>
+      <fields xsi:type="etl:ProjectionField" name="OGRN_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.13"/>
+      <fields xsi:type="etl:ProjectionField" name="PROCESSED_DTTM" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.7/@inputPort/@fields.14"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.15"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.16"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.17"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.18"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.19"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_MEMBER_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.20"/>
+      <fields xsi:type="etl:ProjectionField" name="RESIDENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.21"/>
+      <fields xsi:type="etl:ProjectionField" name="SRC_STM_ID" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.22"/>
+      <fields xsi:type="etl:ProjectionField" name="SUBHOLDING" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.23"/>
+      <fields xsi:type="etl:ProjectionField" name="SWIFT_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.24"/>
+      <fields xsi:type="etl:ProjectionField" name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.25"/>
+      <fields xsi:type="etl:ProjectionField" name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.26"/>
+      <fields xsi:type="etl:ProjectionField" name="UNQ_SRC_ID" dataTypeDomain="STRING" sourceFields="//@transformationSteps.7/@inputPort/@fields.27"/>
+      <fields xsi:type="etl:ProjectionField" name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.7/@inputPort/@fields.28"/>
+    </outputPort>
+    <inputPort name="Projection_26in">
+      <fields name="TRP_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="TRP_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="TRP_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="TRP_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="DIM_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="DIM_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="DIM_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="DIM_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Projection" name="Projection_27" label="Projection_27">
+    <outputPort name="Projection_27out">
+      <fields xsi:type="etl:ProjectionField" name="CLIENT_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.0"/>
+      <fields xsi:type="etl:ProjectionField" name="BIC_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.1"/>
+      <fields xsi:type="etl:ProjectionField" name="HASH_TAG" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.2"/>
+      <fields xsi:type="etl:ProjectionField" name="INDUSTRY_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.3"/>
+      <fields xsi:type="etl:ProjectionField" name="INN_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.4"/>
+      <fields xsi:type="etl:ProjectionField" name="IS_DELETE_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.5"/>
+      <fields xsi:type="etl:ProjectionField" name="KIO_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.6"/>
+      <fields xsi:type="etl:ProjectionField" name="LICENSE_NUM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.7"/>
+      <fields xsi:type="etl:ProjectionField" name="LOAD_ID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.8"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_ENG_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.9"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.10"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_ORIG_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.11"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_RUS_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.12"/>
+      <fields xsi:type="etl:ProjectionField" name="OGRN_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.13"/>
+      <fields xsi:type="etl:ProjectionField" name="PROCESSED_DTTM" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.8/@inputPort/@fields.14"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.15"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.16"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.17"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.18"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.19"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_MEMBER_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.20"/>
+      <fields xsi:type="etl:ProjectionField" name="RESIDENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.21"/>
+      <fields xsi:type="etl:ProjectionField" name="SRC_STM_ID" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.22"/>
+      <fields xsi:type="etl:ProjectionField" name="SUBHOLDING" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.23"/>
+      <fields xsi:type="etl:ProjectionField" name="SWIFT_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.24"/>
+      <fields xsi:type="etl:ProjectionField" name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.25"/>
+      <fields xsi:type="etl:ProjectionField" name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.26"/>
+      <fields xsi:type="etl:ProjectionField" name="UNQ_SRC_ID" dataTypeDomain="STRING" sourceFields="//@transformationSteps.8/@inputPort/@fields.27"/>
+      <fields xsi:type="etl:ProjectionField" name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.8/@inputPort/@fields.28"/>
+    </outputPort>
+    <inputPort name="Projection_27in">
+      <fields name="TRP_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="TRP_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="TRP_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="TRP_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="DIM_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="DIM_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="DIM_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="DIM_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Projection" name="Projection_29" label="Projection_29">
+    <outputPort name="Projection_29out">
+      <fields xsi:type="etl:ProjectionField" name="CLIENT_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.29"/>
+      <fields xsi:type="etl:ProjectionField" name="BIC_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.30"/>
+      <fields xsi:type="etl:ProjectionField" name="HASH_TAG" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.31"/>
+      <fields xsi:type="etl:ProjectionField" name="INDUSTRY_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.32"/>
+      <fields xsi:type="etl:ProjectionField" name="INN_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.33"/>
+      <fields xsi:type="etl:ProjectionField" name="IS_DELETE_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.34"/>
+      <fields xsi:type="etl:ProjectionField" name="KIO_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.35"/>
+      <fields xsi:type="etl:ProjectionField" name="LICENSE_NUM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.36"/>
+      <fields xsi:type="etl:ProjectionField" name="LOAD_ID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.37"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_ENG_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.38"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.39"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_ORIG_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.40"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME_RUS_NM" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.41"/>
+      <fields xsi:type="etl:ProjectionField" name="OGRN_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.42"/>
+      <fields xsi:type="etl:ProjectionField" name="PROCESSED_DTTM" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.9/@inputPort/@fields.43"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.44"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.45"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.46"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.47"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.48"/>
+      <fields xsi:type="etl:ProjectionField" name="REL_MEMBER_UID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.49"/>
+      <fields xsi:type="etl:ProjectionField" name="RESIDENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.50"/>
+      <fields xsi:type="etl:ProjectionField" name="SRC_STM_ID" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.51"/>
+      <fields xsi:type="etl:ProjectionField" name="SUBHOLDING" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.52"/>
+      <fields xsi:type="etl:ProjectionField" name="SWIFT_CD" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.53"/>
+      <fields xsi:type="etl:ProjectionField" name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.54"/>
+      <fields xsi:type="etl:ProjectionField" name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.55"/>
+      <fields xsi:type="etl:ProjectionField" name="UNQ_SRC_ID" dataTypeDomain="STRING" sourceFields="//@transformationSteps.9/@inputPort/@fields.56"/>
+      <fields xsi:type="etl:ProjectionField" name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.9/@inputPort/@fields.57"/>
+      <fields xsi:type="etl:ProjectionField" name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.9/@inputPort/@fields.14" expression="&quot;&quot;"/>
+    </outputPort>
+    <inputPort name="Projection_29in">
+      <fields name="TRP_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="TRP_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="TRP_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="TRP_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="TRP_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="TRP_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TRP_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="TRP_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="TRP_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="DIM_INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_INN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="DIM_LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="DIM_OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="DIM_REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="DIM_SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="DIM_TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="DIM_UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="DIM_WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+  </transformationSteps>
+  <sources xsi:type="etl:SQLSource" name="TRP_S04_DIM_CLIENT" label="TRP_S04_DIM_CLIENT" statement="select&#xA;&#x9;BIC_CD,&#xA;&#x9;CLIENT_UID,&#xA;&#x9;HASH_TAG,&#xA;&#x9;INDUSTRY_NM,&#xA;&#x9;INN_CD,&#xA;&#x9;IS_DELETE_FLG,&#xA;&#x9;KIO_CD,&#xA;&#x9;LICENSE_NUM,&#xA;&#x9;LOAD_ID,&#xA;&#x9;NAME_ENG_NM,&#xA;&#x9;NAME_NM,&#xA;&#x9;NAME_ORIG_NM,&#xA;&#x9;NAME_RUS_NM,&#xA;&#x9;OGRN_CD,&#xA;&#x9;PROCESSED_DTTM,&#xA;&#x9;REL_BUSINESS_CATEGORY_UID,&#xA;&#x9;REL_CLIENT_GROUP_UID,&#xA;&#x9;REL_CLIENT_TYPE_UID,&#xA;&#x9;REL_COUNTRY_UID,&#xA;&#x9;REL_INDUSTRY_UID,&#xA;&#x9;REL_MEMBER_UID,&#xA;&#x9;RESIDENT_FLG,&#xA;&#x9;SRC_STM_ID,&#xA;&#x9;SUBHOLDING,&#xA;&#x9;SWIFT_CD,&#xA;&#x9;TECH_CLIENT_FLG,&#xA;&#x9;UNIFIED_CLIENT_FLG,&#xA;&#x9;UNQ_SRC_ID,&#xA;&#x9;WORKFLOW_RUN_ID&#xA;from TRP_S04_DIM_CLIENT">
+    <outputPort name="SQL_0out">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:SQLSource" name="DIM_CLIENT" label="DIM_CLIENT" statement="select&#xA;&#x9;BIC_CD,&#xA;&#x9;CLIENT_UID,&#xA;&#x9;HASH_TAG,&#xA;&#x9;INDUSTRY_NM,&#xA;&#x9;INN_CD,&#xA;&#x9;IS_DELETE_FLG,&#xA;&#x9;KIO_CD,&#xA;&#x9;LICENSE_NUM,&#xA;&#x9;LOAD_ID,&#xA;&#x9;NAME_ENG_NM,&#xA;&#x9;NAME_NM,&#xA;&#x9;NAME_ORIG_NM,&#xA;&#x9;NAME_RUS_NM,&#xA;&#x9;OGRN_CD,&#xA;&#x9;PROCESSED_DTTM,&#xA;&#x9;REL_BUSINESS_CATEGORY_UID,&#xA;&#x9;REL_CLIENT_GROUP_UID,&#xA;&#x9;REL_CLIENT_TYPE_UID,&#xA;&#x9;REL_COUNTRY_UID,&#xA;&#x9;REL_INDUSTRY_UID,&#xA;&#x9;REL_MEMBER_UID,&#xA;&#x9;RESIDENT_FLG,&#xA;&#x9;SRC_STM_ID,&#xA;&#x9;SUBHOLDING,&#xA;&#x9;SWIFT_CD,&#xA;&#x9;TECH_CLIENT_FLG,&#xA;&#x9;UNIFIED_CLIENT_FLG,&#xA;&#x9;UNQ_SRC_ID,&#xA;&#x9;WORKFLOW_RUN_ID&#xA;from DIM_CLIENT">
+    <outputPort name="SQL_2out">
+      <fields name="BIC_CD" dataTypeDomain="STRING"/>
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="HASH_TAG" dataTypeDomain="STRING"/>
+      <fields name="INDUSTRY_NM" dataTypeDomain="STRING"/>
+      <fields name="INN_CD" dataTypeDomain="STRING"/>
+      <fields name="IS_DELETE_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="KIO_CD" dataTypeDomain="STRING"/>
+      <fields name="LICENSE_NUM" dataTypeDomain="STRING"/>
+      <fields name="LOAD_ID" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME_ENG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_ORIG_NM" dataTypeDomain="STRING"/>
+      <fields name="NAME_RUS_NM" dataTypeDomain="STRING"/>
+      <fields name="OGRN_CD" dataTypeDomain="STRING"/>
+      <fields name="PROCESSED_DTTM" dataTypeDomain="DATETIME"/>
+      <fields name="REL_BUSINESS_CATEGORY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_GROUP_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_CLIENT_TYPE_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_COUNTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_INDUSTRY_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="REL_MEMBER_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="RESIDENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="SRC_STM_ID" dataTypeDomain="STRING"/>
+      <fields name="SUBHOLDING" dataTypeDomain="STRING"/>
+      <fields name="SWIFT_CD" dataTypeDomain="STRING"/>
+      <fields name="TECH_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNIFIED_CLIENT_FLG" dataTypeDomain="DECIMAL"/>
+      <fields name="UNQ_SRC_ID" dataTypeDomain="STRING"/>
+      <fields name="WORKFLOW_RUN_ID" dataTypeDomain="DECIMAL"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:SQLSource" name="SQL_17" label="Last DIM_CLIEN_TECH" statement="select&#xA;&#x9;CLIENT_UID,&#xA;&#x9;max(EFFECTIVE_FROM_DT) as EFFECTIVE_FROM_DT&#xA;from DIM_CLIEN_TECH&#xA;group by CLIENT_UID">
+    <outputPort name="SQL_17out">
+      <fields name="CLIENT_UID" dataTypeDomain="DECIMAL"/>
+      <fields name="EFFECTIVE_FROM_DT" dataTypeDomain="DATETIME"/>
+    </outputPort>
+  </sources>
+  <transitions name="b2fbd818-6bca-4a52-8d90-9688f3308cd4" start="//@sources.0/@outputPort" finish="//@transformationSteps.0/@sqlPorts.0"/>
+  <transitions name="6f6e42a2-5db9-4cbd-96af-2a560f4be3f4" start="//@sources.1/@outputPort" finish="//@transformationSteps.0/@sqlPorts.1"/>
+  <transitions name="3a0a9ef4-5f4a-491f-acc1-0b8e7e13bb53" start="//@transformationSteps.0/@outputPort" finish="//@transformationSteps.1/@inputPort"/>
+  <transitions name="afeef769-25e7-4715-80a8-92cbec4edbd0" start="//@transformationSteps.0/@outputPort" finish="//@transformationSteps.2/@inputPort"/>
+  <transitions name="71efb82c-407c-4ab3-985d-3cb3ab0ab3f3" start="//@sources.2/@outputPort" finish="//@transformationSteps.5/@sqlPorts.1"/>
+  <transitions name="5ac0bec5-aad5-4cb3-a481-c7b455398b86" start="//@transformationSteps.5/@outputPort" finish="//@transformationSteps.6/@inputPort"/>
+  <transitions name="3b5b357f-9046-4f2e-ad0b-0ac6963ca6eb" start="//@transformationSteps.6/@outputPort" finish="//@transformationSteps.4/@inputPort"/>
+  <transitions name="978b7a2c-6a6c-412f-ad41-9d6cf4253dc5" start="//@transformationSteps.5/@outputPort" finish="//@transformationSteps.3/@inputPort"/>
+  <transitions name="0765c3e0-f6e0-45a2-a23e-b6ef727a1286" start="//@transformationSteps.1/@outputPort" finish="//@transformationSteps.7/@inputPort"/>
+  <transitions name="c9a70ac1-a166-4106-a353-78b834aaeb38" start="//@transformationSteps.4/@outputPort" finish="//@targets.1/@inputPort"/>
+  <transitions name="003e9e46-21b4-407a-ba9a-103d94073617" start="//@transformationSteps.2/@outputPort" finish="//@transformationSteps.8/@inputPort"/>
+  <transitions name="99a31f98-e047-4fbe-992a-dcd01fe2948d" start="//@transformationSteps.2/@outputPort" finish="//@transformationSteps.9/@inputPort"/>
+  <transitions name="263624f7-2f82-43ff-9072-6c3dae0ec822" start="//@transformationSteps.9/@outputPort" finish="//@transformationSteps.5/@sqlPorts.0"/>
+  <transitions name="05ee8ff0-730a-4a05-9751-052154f117ac" start="//@transformationSteps.3/@outputPort" finish="//@targets.2/@inputPort"/>
+  <transitions name="27469564-3ed3-4d02-9cc5-c9ed132dc8f2" start="//@transformationSteps.7/@outputPort" finish="//@targets.0/@inputPort"/>
+  <transitions name="d283fb2e-4dc1-48d9-8ca2-7903e46f35a2" start="//@transformationSteps.8/@outputPort" finish="//@targets.3/@inputPort"/>
+  <auditInfo changeUser="admin" changeDateTime="2020-09-23T21:05:29.835+0000" createUser="admin" createDateTime="2020-09-23T11:13:01.390+0000"/>
+</etl:Transformation>

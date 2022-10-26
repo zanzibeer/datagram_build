@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rt:FileSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:rt="http://www.neoflex.ru/meta/rt" name="s3datagram" url="s3a://datagram">
+  <properties name="fs.s3a.access.key" value="rplcza5kv5tsQJguF57B"/>
+  <properties name="fs.s3a.secret.key" value="ZSUJyTnfBOilgpEFZKGSW2d5qeSsyjyiYM8xc0AS"/>
+  <properties name="fs.s3a.endpoint" value="storage.yandexcloud.net"/>
+</rt:FileSystem>

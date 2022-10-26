@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<etl:CoJob xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:etl="http://www.neoflex.ru/meta/etl" name="co_wf_load_datagram_transformations" frequency="${coord:days(2)}" start="2022-03-25T11:30+0300" end="2022-05-01T08:00+0300" timezone="GMT+03:00">
+  <action xsi:type="etl:CoWorkflow" name=""/>
+  <auditInfo createUser="admin" createDateTime="2022-05-25T13:53:52.100+0000"/>
+</etl:CoJob>

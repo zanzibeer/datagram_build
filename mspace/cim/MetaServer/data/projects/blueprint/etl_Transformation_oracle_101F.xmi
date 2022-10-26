@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="ASCII"?>
+<etl:Transformation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:etl="http://www.neoflex.ru/meta/etl" name="oracle_101F" label="oracle_101F" sparkVersion="SPARK3" description="&#x41e;&#x431;&#x43e;&#x440;&#x43e;&#x442;&#x43d;&#x43e;-&#x441;&#x430;&#x43b;&#x44c;&#x434;&#x43e;&#x432;&#x430;&#x44f; &#x432;&#x435;&#x434;&#x43e;&#x43c;&#x43e;&#x441;&#x442;&#x44c;. &#x424;&#x43e;&#x440;&#x43c;&#x430; 101." jsonView="{&quot;cells&quot;:[{&quot;type&quot;:&quot;devs.transformation.SqlSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:60,&quot;y&quot;:30},&quot;angle&quot;:0,&quot;id&quot;:&quot;00831d1e-212e-42b5-9933-eb2cdd932a1f&quot;,&quot;name&quot;:&quot;DM_ACCOUNT_D&quot;,&quot;z&quot;:1,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;DM_ACCOUNT_D&quot;}}},{&quot;type&quot;:&quot;devs.transformation.SqlSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:60,&quot;y&quot;:150},&quot;angle&quot;:0,&quot;id&quot;:&quot;e1c1ee5b-78cf-4d92-9faf-7d7447157edc&quot;,&quot;name&quot;:&quot;DM_BALANCE_F&quot;,&quot;z&quot;:2,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;DM_BALANCE_F&quot;}}},{&quot;type&quot;:&quot;devs.transformation.SqlSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:180,&quot;y&quot;:240},&quot;angle&quot;:0,&quot;id&quot;:&quot;155e973f-9b5d-4db1-b078-2b9a54ab2cb7&quot;,&quot;name&quot;:&quot;DM_ACCOUNT_TURNOVER_F&quot;,&quot;z&quot;:3,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;DM_ACCOUNT_TURNOVER_F&quot;}}},{&quot;type&quot;:&quot;devs.transformation.SqlSource&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:330,&quot;y&quot;:330},&quot;angle&quot;:0,&quot;id&quot;:&quot;f3396021-c0f0-4c1a-868f-b1cf484d8ffe&quot;,&quot;name&quot;:&quot;DM_CUSTOMER_D&quot;,&quot;z&quot;:4,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;DM_CUSTOMER_D&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Join&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;,&quot;join&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;join&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;join&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:185,&quot;y&quot;:84},&quot;angle&quot;:0,&quot;id&quot;:&quot;c94635fd-e2e4-435e-8745-b7cf0f506046&quot;,&quot;name&quot;:&quot;Join_1&quot;,&quot;z&quot;:5,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Join_1&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Join&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;,&quot;join&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;join&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;join&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:330,&quot;y&quot;:150},&quot;angle&quot;:0,&quot;id&quot;:&quot;3c17b586-157c-46b5-a9ce-0c742fe9d803&quot;,&quot;name&quot;:&quot;Join_2&quot;,&quot;z&quot;:6,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Join_2&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Join&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;,&quot;join&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}},{&quot;id&quot;:&quot;join&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;join&quot;}}},{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:480,&quot;y&quot;:240},&quot;angle&quot;:0,&quot;id&quot;:&quot;cf4e6d9e-4d60-40bb-a15e-30932e5c4562&quot;,&quot;name&quot;:&quot;Join_3&quot;,&quot;z&quot;:7,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Join_3&quot;}}},{&quot;type&quot;:&quot;devs.transformation.SparkSQL&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;sqlin&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}},{&quot;id&quot;:&quot;0&quot;,&quot;multiple&quot;:true,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;,&quot;visibility&quot;:&quot;visible&quot;},&quot;circle&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}]},&quot;position&quot;:{&quot;x&quot;:630,&quot;y&quot;:240},&quot;angle&quot;:0,&quot;id&quot;:&quot;e9edabf9-7943-4d0f-9d32-f846aa32850b&quot;,&quot;name&quot;:&quot;Balance_in&quot;,&quot;z&quot;:8,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Balance_in&quot;}}},{&quot;type&quot;:&quot;devs.transformation.SparkSQL&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;sqlin&quot;],&quot;outPorts&quot;:[&quot;out&quot;],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;out&quot;,&quot;group&quot;:&quot;out&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;out&quot;}}},{&quot;id&quot;:&quot;0&quot;,&quot;multiple&quot;:true,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;,&quot;visibility&quot;:&quot;visible&quot;},&quot;circle&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}]},&quot;position&quot;:{&quot;x&quot;:780,&quot;y&quot;:330},&quot;angle&quot;:0,&quot;id&quot;:&quot;163cd73a-d4b7-4936-a497-af12e73aadbe&quot;,&quot;name&quot;:&quot;Group_LEDGER_ACCOUNT&quot;,&quot;z&quot;:9,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;Group_LEDGER_ACCOUNT&quot;}}},{&quot;type&quot;:&quot;devs.transformation.LocalTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:810,&quot;y&quot;:180},&quot;angle&quot;:0,&quot;id&quot;:&quot;0b007ad3-5002-4fe4-ab72-49e6d3b5c88c&quot;,&quot;name&quot;:&quot;F101_detailed&quot;,&quot;z&quot;:10,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;F101_detailed&quot;}}},{&quot;type&quot;:&quot;devs.transformation.LocalTarget&quot;,&quot;size&quot;:{&quot;width&quot;:80,&quot;height&quot;:80},&quot;inPorts&quot;:[&quot;in&quot;],&quot;outPorts&quot;:[],&quot;ports&quot;:{&quot;groups&quot;:{&quot;in&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;white&quot;,&quot;magnet&quot;:&quot;passive&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;left&quot;,&quot;args&quot;:{&quot;y&quot;:10}}}},&quot;out&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;},&quot;label&quot;:{&quot;position&quot;:{&quot;name&quot;:&quot;right&quot;,&quot;args&quot;:{&quot;y&quot;:10}}},&quot;attrs&quot;:{&quot;.port-body&quot;:{&quot;fill&quot;:&quot;#4d4d4dde&quot;,&quot;stroke&quot;:&quot;#000&quot;,&quot;r&quot;:10,&quot;magnet&quot;:true},&quot;.port-label&quot;:{&quot;text&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;hidden&quot;,&quot;fill&quot;:&quot;#000&quot;},&quot;circle&quot;:{&quot;r&quot;:7,&quot;stroke&quot;:&quot;#4d4d4dde&quot;,&quot;stroke-width&quot;:1}}}},&quot;items&quot;:[{&quot;id&quot;:&quot;in&quot;,&quot;group&quot;:&quot;in&quot;,&quot;attrs&quot;:{&quot;.port-label&quot;:{&quot;text&quot;:&quot;in&quot;}}}]},&quot;position&quot;:{&quot;x&quot;:930,&quot;y&quot;:330},&quot;angle&quot;:0,&quot;id&quot;:&quot;c6686811-8f24-44de-a581-2eaeb3a52747&quot;,&quot;name&quot;:&quot;F101_LEDGER_ACCOUNT&quot;,&quot;z&quot;:11,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;F101_LEDGER_ACCOUNT&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;00831d1e-212e-42b5-9933-eb2cdd932a1f&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;c94635fd-e2e4-435e-8745-b7cf0f506046&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;7f8346e6-a6be-4fe8-b4d6-4f38603234cd&quot;,&quot;z&quot;:12,&quot;name&quot;:&quot;b0b9a39e-b0fa-44c7-a550-0005130df917&quot;,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;b0b9a39e-b0fa-44c7-a550-0005130df917&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;e1c1ee5b-78cf-4d92-9faf-7d7447157edc&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;c94635fd-e2e4-435e-8745-b7cf0f506046&quot;,&quot;port&quot;:&quot;join&quot;},&quot;id&quot;:&quot;238d0b14-fcee-4f49-b02b-db2a5257364c&quot;,&quot;z&quot;:13,&quot;name&quot;:&quot;29ec1565-9ef7-4c8c-9026-e4d5fdaabc22&quot;,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;29ec1565-9ef7-4c8c-9026-e4d5fdaabc22&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;c94635fd-e2e4-435e-8745-b7cf0f506046&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;3c17b586-157c-46b5-a9ce-0c742fe9d803&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;2878eba2-38fb-49f4-96af-629b11f647e8&quot;,&quot;z&quot;:14,&quot;name&quot;:&quot;c5a9a6b9-057b-40e2-a7f9-9434e0133091&quot;,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;c5a9a6b9-057b-40e2-a7f9-9434e0133091&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;155e973f-9b5d-4db1-b078-2b9a54ab2cb7&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;3c17b586-157c-46b5-a9ce-0c742fe9d803&quot;,&quot;port&quot;:&quot;join&quot;},&quot;id&quot;:&quot;a496892d-98ec-4448-bb91-34252f0dde9e&quot;,&quot;z&quot;:15,&quot;name&quot;:&quot;7c651acb-67f3-4d8f-ba46-187d3e3dd148&quot;,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;7c651acb-67f3-4d8f-ba46-187d3e3dd148&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;3c17b586-157c-46b5-a9ce-0c742fe9d803&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;cf4e6d9e-4d60-40bb-a15e-30932e5c4562&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;df68da34-87cc-4002-b491-362a9697d0dc&quot;,&quot;z&quot;:16,&quot;name&quot;:&quot;bb83fd9b-29d9-490d-9638-79f210723087&quot;,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;bb83fd9b-29d9-490d-9638-79f210723087&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;f3396021-c0f0-4c1a-868f-b1cf484d8ffe&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;cf4e6d9e-4d60-40bb-a15e-30932e5c4562&quot;,&quot;port&quot;:&quot;join&quot;},&quot;id&quot;:&quot;51d77b04-ed10-4723-ac5b-3b6340000a1a&quot;,&quot;z&quot;:17,&quot;name&quot;:&quot;507c6344-f24b-4306-902a-e1f1c6878be8&quot;,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;507c6344-f24b-4306-902a-e1f1c6878be8&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;cf4e6d9e-4d60-40bb-a15e-30932e5c4562&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;e9edabf9-7943-4d0f-9d32-f846aa32850b&quot;,&quot;port&quot;:&quot;0&quot;},&quot;id&quot;:&quot;01b64366-6415-4b6b-b0f8-676fadf89ef3&quot;,&quot;z&quot;:18,&quot;name&quot;:&quot;1b8440c9-26fe-479f-8c6d-7267960cb204&quot;,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;1b8440c9-26fe-479f-8c6d-7267960cb204&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;e9edabf9-7943-4d0f-9d32-f846aa32850b&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;0b007ad3-5002-4fe4-ab72-49e6d3b5c88c&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;624fb715-2935-4bb4-8707-74d9fb31edf8&quot;,&quot;z&quot;:19,&quot;name&quot;:&quot;3508b165-c3fe-4385-9663-9c2d742c547a&quot;,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;3508b165-c3fe-4385-9663-9c2d742c547a&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;e9edabf9-7943-4d0f-9d32-f846aa32850b&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;163cd73a-d4b7-4936-a497-af12e73aadbe&quot;,&quot;port&quot;:&quot;0&quot;},&quot;id&quot;:&quot;ac85633f-7d5a-4abc-8a08-67b21bba2c4f&quot;,&quot;z&quot;:20,&quot;name&quot;:&quot;1242ff4f-2fa3-4f75-ac76-f98004656261&quot;,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;1242ff4f-2fa3-4f75-ac76-f98004656261&quot;}}},{&quot;type&quot;:&quot;devs.transformation.Flow&quot;,&quot;source&quot;:{&quot;id&quot;:&quot;163cd73a-d4b7-4936-a497-af12e73aadbe&quot;,&quot;port&quot;:&quot;out&quot;},&quot;target&quot;:{&quot;id&quot;:&quot;c6686811-8f24-44de-a581-2eaeb3a52747&quot;,&quot;port&quot;:&quot;in&quot;},&quot;id&quot;:&quot;c1f80001-79f6-4f5f-831f-9222930de4e2&quot;,&quot;z&quot;:21,&quot;name&quot;:&quot;32fe4fa0-6e54-4227-b957-89a1cb11dd0a&quot;,&quot;attrs&quot;:{&quot;.label&quot;:{&quot;text&quot;:&quot;32fe4fa0-6e54-4227-b957-89a1cb11dd0a&quot;}}}]}">
+  <targets xsi:type="etl:LocalTarget" name="F101_detailed" label="F101_detailed" localFileName="/tmp/F101_detailed" localFileFormat="ORC" saveMode="OVERWRITE" registerTable="true" hiveTableName="F101_detailed">
+    <inputPort name="Local_9in">
+      <fields name="ACCOUNT_NUMBER" dataTypeDomain="STRING"/>
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_IN" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_IN_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BANK_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="BRANCH_CODE" dataTypeDomain="STRING"/>
+      <fields name="CHAR_TYPE" dataTypeDomain="STRING"/>
+      <fields name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="CURRENCY_CODE" dataTypeDomain="STRING"/>
+      <fields name="CUSTOMER_SK" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="LEDGER_ACCOUNT" dataTypeDomain="STRING"/>
+      <fields name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME" dataTypeDomain="STRING"/>
+      <fields name="ON_DATE" dataTypeDomain="DATETIME"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ACCOUNT_NUMBER" targetColumnName="ACCOUNT_NUMBER"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ACCOUNT_RK" targetColumnName="ACCOUNT_RK"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BALANCE_IN" targetColumnName="BALANCE_IN"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BALANCE_IN_RUB" targetColumnName="BALANCE_IN_RUB"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BALANCE_OUT" targetColumnName="BALANCE_OUT"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BALANCE_OUT_RUB" targetColumnName="BALANCE_OUT_RUB"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BANK_DATE" targetColumnName="BANK_DATE"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BRANCH_CODE" targetColumnName="BRANCH_CODE"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CHAR_TYPE" targetColumnName="CHAR_TYPE"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CREDIT_TURNORVER" targetColumnName="CREDIT_TURNORVER"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CREDIT_TURNORVER_RUB" targetColumnName="CREDIT_TURNORVER_RUB"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CURRENCY_CODE" targetColumnName="CURRENCY_CODE"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CUSTOMER_SK" targetColumnName="CUSTOMER_SK"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="DEBET_TURNORVER" targetColumnName="DEBET_TURNORVER"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="DEBET_TURNORVER_RUB" targetColumnName="DEBET_TURNORVER_RUB"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="LEDGER_ACCOUNT" targetColumnName="LEDGER_ACCOUNT"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="LEDGER_ACCOUNT_RK" targetColumnName="LEDGER_ACCOUNT_RK"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="NAME" targetColumnName="NAME"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="ON_DATE" targetColumnName="ON_DATE"/>
+  </targets>
+  <targets xsi:type="etl:LocalTarget" name="F101_LEDGER_ACCOUNT" label="F101_LEDGER_ACCOUNT" localFileName="/tmp/F101_LEDGER_ACCOUNT" localFileFormat="ORC" saveMode="OVERWRITE" registerTable="true" hiveTableName="F101_LEDGER_ACCOUNT">
+    <inputPort name="Local_19in">
+      <fields name="LEDGER_ACCOUNT" dataTypeDomain="STRING"/>
+      <fields name="BALANCE_IN" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_IN_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BANK_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="BRANCH_CODE" dataTypeDomain="STRING"/>
+      <fields name="CHAR_TYPE" dataTypeDomain="STRING"/>
+      <fields name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="LEDGER_ACCOUNT" targetColumnName="LEDGER_ACCOUNT"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BALANCE_IN" targetColumnName="BALANCE_IN"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BALANCE_IN_RUB" targetColumnName="BALANCE_IN_RUB"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BALANCE_OUT" targetColumnName="BALANCE_OUT"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BALANCE_OUT_RUB" targetColumnName="BALANCE_OUT_RUB"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BANK_DATE" targetColumnName="BANK_DATE"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="BRANCH_CODE" targetColumnName="BRANCH_CODE"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CHAR_TYPE" targetColumnName="CHAR_TYPE"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CREDIT_TURNORVER" targetColumnName="CREDIT_TURNORVER"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="CREDIT_TURNORVER_RUB" targetColumnName="CREDIT_TURNORVER_RUB"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="DEBET_TURNORVER" targetColumnName="DEBET_TURNORVER"/>
+    <inputFieldsMapping xsi:type="etl:TableTargetFeature" inputFieldName="DEBET_TURNORVER_RUB" targetColumnName="DEBET_TURNORVER_RUB"/>
+  </targets>
+  <transformationSteps xsi:type="etl:Join" name="Join_1" label="Join_1" joinType="LEFT">
+    <outputPort name="Join_3out">
+      <fields xsi:type="etl:ProjectionField" name="ACCOUNT_NUMBER" dataTypeDomain="STRING" sourceFields="//@transformationSteps.0/@inputPort/@fields.0"/>
+      <fields xsi:type="etl:ProjectionField" name="ACCOUNT_RK" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.0/@inputPort/@fields.1"/>
+      <fields xsi:type="etl:ProjectionField" name="CURRENCY_CODE" dataTypeDomain="STRING" sourceFields="//@transformationSteps.0/@inputPort/@fields.4"/>
+      <fields xsi:type="etl:ProjectionField" name="DATA_ACTUAL_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.0/@inputPort/@fields.5"/>
+      <fields xsi:type="etl:ProjectionField" name="DATA_ACTUAL_END_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.0/@inputPort/@fields.6"/>
+      <fields xsi:type="etl:ProjectionField" name="LEDGER_ACCOUNT" dataTypeDomain="STRING" sourceFields="//@transformationSteps.0/@inputPort/@fields.7"/>
+      <fields xsi:type="etl:ProjectionField" name="BALANCE_OUT" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.0/@joineePort/@fields.1"/>
+      <fields xsi:type="etl:ProjectionField" name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.0/@joineePort/@fields.2"/>
+      <fields xsi:type="etl:ProjectionField" name="ON_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.0/@joineePort/@fields.3"/>
+      <fields xsi:type="etl:ProjectionField" name="BRANCH_CODE" dataTypeDomain="STRING" sourceFields="//@transformationSteps.0/@inputPort/@fields.2"/>
+      <fields xsi:type="etl:ProjectionField" name="CHAR_TYPE" dataTypeDomain="STRING" sourceFields="//@transformationSteps.0/@inputPort/@fields.3"/>
+      <fields xsi:type="etl:ProjectionField" name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.0/@inputPort/@fields.8"/>
+    </outputPort>
+    <inputPort name="Join_3in">
+      <fields name="ACCOUNT_NUMBER" dataTypeDomain="STRING"/>
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="BRANCH_CODE" dataTypeDomain="STRING"/>
+      <fields name="CHAR_TYPE" dataTypeDomain="STRING"/>
+      <fields name="CURRENCY_CODE" dataTypeDomain="STRING"/>
+      <fields name="DATA_ACTUAL_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="DATA_ACTUAL_END_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="LEDGER_ACCOUNT" dataTypeDomain="STRING"/>
+      <fields name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+    <joineePort name="Join_3join">
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="ON_DATE" dataTypeDomain="DATETIME"/>
+    </joineePort>
+    <keyFields>ACCOUNT_RK</keyFields>
+    <joineeKeyFields>ACCOUNT_RK</joineeKeyFields>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Join" name="Join_2" label="Join_2" joinType="LEFT">
+    <outputPort name="Join_6out">
+      <fields xsi:type="etl:ProjectionField" name="ACCOUNT_NUMBER" dataTypeDomain="STRING" sourceFields="//@transformationSteps.1/@inputPort/@fields.0"/>
+      <fields xsi:type="etl:ProjectionField" name="ACCOUNT_RK" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.1/@inputPort/@fields.1"/>
+      <fields xsi:type="etl:ProjectionField" name="CURRENCY_CODE" dataTypeDomain="STRING" sourceFields="//@transformationSteps.1/@inputPort/@fields.2"/>
+      <fields xsi:type="etl:ProjectionField" name="DATA_ACTUAL_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.1/@inputPort/@fields.3"/>
+      <fields xsi:type="etl:ProjectionField" name="DATA_ACTUAL_END_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.1/@inputPort/@fields.4"/>
+      <fields xsi:type="etl:ProjectionField" name="LEDGER_ACCOUNT" dataTypeDomain="STRING" sourceFields="//@transformationSteps.1/@inputPort/@fields.5"/>
+      <fields xsi:type="etl:ProjectionField" name="BALANCE_OUT" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.1/@inputPort/@fields.6"/>
+      <fields xsi:type="etl:ProjectionField" name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.1/@inputPort/@fields.7"/>
+      <fields xsi:type="etl:ProjectionField" name="ON_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.1/@inputPort/@fields.8"/>
+      <fields xsi:type="etl:ProjectionField" name="BANK_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.1/@joineePort/@fields.1"/>
+      <fields xsi:type="etl:ProjectionField" name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.1/@joineePort/@fields.2"/>
+      <fields xsi:type="etl:ProjectionField" name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.1/@joineePort/@fields.3"/>
+      <fields xsi:type="etl:ProjectionField" name="DEBET_TURNORVER" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.1/@joineePort/@fields.4"/>
+      <fields xsi:type="etl:ProjectionField" name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.1/@joineePort/@fields.5"/>
+      <fields xsi:type="etl:ProjectionField" name="BRANCH_CODE" dataTypeDomain="STRING" sourceFields="//@transformationSteps.1/@inputPort/@fields.9"/>
+      <fields xsi:type="etl:ProjectionField" name="CHAR_TYPE" dataTypeDomain="STRING" sourceFields="//@transformationSteps.1/@inputPort/@fields.10"/>
+      <fields xsi:type="etl:ProjectionField" name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.1/@inputPort/@fields.11"/>
+      <fields xsi:type="etl:ProjectionField" name="CUSTOMER_SK" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.1/@joineePort/@fields.6"/>
+    </outputPort>
+    <inputPort name="Join_6in">
+      <fields name="ACCOUNT_NUMBER" dataTypeDomain="STRING"/>
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="CURRENCY_CODE" dataTypeDomain="STRING"/>
+      <fields name="DATA_ACTUAL_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="DATA_ACTUAL_END_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="LEDGER_ACCOUNT" dataTypeDomain="STRING"/>
+      <fields name="BALANCE_OUT" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="ON_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="BRANCH_CODE" dataTypeDomain="STRING"/>
+      <fields name="CHAR_TYPE" dataTypeDomain="STRING"/>
+      <fields name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+    <joineePort name="Join_6join">
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="BANK_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="CUSTOMER_SK" dataTypeDomain="DECIMAL"/>
+    </joineePort>
+    <keyFields>ACCOUNT_RK</keyFields>
+    <joineeKeyFields>ACCOUNT_RK</joineeKeyFields>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:Join" name="Join_3" label="Join_3" joinType="LEFT">
+    <outputPort name="Join_11out">
+      <fields xsi:type="etl:ProjectionField" name="ACCOUNT_NUMBER" dataTypeDomain="STRING" sourceFields="//@transformationSteps.2/@inputPort/@fields.0"/>
+      <fields xsi:type="etl:ProjectionField" name="ACCOUNT_RK" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.2/@inputPort/@fields.1"/>
+      <fields xsi:type="etl:ProjectionField" name="CURRENCY_CODE" dataTypeDomain="STRING" sourceFields="//@transformationSteps.2/@inputPort/@fields.2"/>
+      <fields xsi:type="etl:ProjectionField" name="DATA_ACTUAL_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.2/@inputPort/@fields.3"/>
+      <fields xsi:type="etl:ProjectionField" name="DATA_ACTUAL_END_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.2/@inputPort/@fields.4"/>
+      <fields xsi:type="etl:ProjectionField" name="LEDGER_ACCOUNT" dataTypeDomain="STRING" sourceFields="//@transformationSteps.2/@inputPort/@fields.5"/>
+      <fields xsi:type="etl:ProjectionField" name="BALANCE_OUT" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.2/@inputPort/@fields.6"/>
+      <fields xsi:type="etl:ProjectionField" name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.2/@inputPort/@fields.7"/>
+      <fields xsi:type="etl:ProjectionField" name="ON_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.2/@inputPort/@fields.8"/>
+      <fields xsi:type="etl:ProjectionField" name="BANK_DATE" dataTypeDomain="DATETIME" sourceFields="//@transformationSteps.2/@inputPort/@fields.9"/>
+      <fields xsi:type="etl:ProjectionField" name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.2/@inputPort/@fields.10"/>
+      <fields xsi:type="etl:ProjectionField" name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.2/@inputPort/@fields.11"/>
+      <fields xsi:type="etl:ProjectionField" name="DEBET_TURNORVER" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.2/@inputPort/@fields.12"/>
+      <fields xsi:type="etl:ProjectionField" name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.2/@inputPort/@fields.13"/>
+      <fields xsi:type="etl:ProjectionField" name="BRANCH_CODE" dataTypeDomain="STRING" sourceFields="//@transformationSteps.2/@inputPort/@fields.14"/>
+      <fields xsi:type="etl:ProjectionField" name="CHAR_TYPE" dataTypeDomain="STRING" sourceFields="//@transformationSteps.2/@inputPort/@fields.15"/>
+      <fields xsi:type="etl:ProjectionField" name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.2/@inputPort/@fields.16"/>
+      <fields xsi:type="etl:ProjectionField" name="CUSTOMER_SK" dataTypeDomain="DECIMAL" sourceFields="//@transformationSteps.2/@inputPort/@fields.17"/>
+      <fields xsi:type="etl:ProjectionField" name="NAME" dataTypeDomain="STRING" sourceFields="//@transformationSteps.2/@joineePort/@fields.1"/>
+    </outputPort>
+    <inputPort name="Join_11in">
+      <fields name="ACCOUNT_NUMBER" dataTypeDomain="STRING"/>
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="CURRENCY_CODE" dataTypeDomain="STRING"/>
+      <fields name="DATA_ACTUAL_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="DATA_ACTUAL_END_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="LEDGER_ACCOUNT" dataTypeDomain="STRING"/>
+      <fields name="BALANCE_OUT" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="ON_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="BANK_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BRANCH_CODE" dataTypeDomain="STRING"/>
+      <fields name="CHAR_TYPE" dataTypeDomain="STRING"/>
+      <fields name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="CUSTOMER_SK" dataTypeDomain="DECIMAL"/>
+    </inputPort>
+    <joineePort name="Join_11join">
+      <fields name="CUSTOMER_SK" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME" dataTypeDomain="STRING"/>
+    </joineePort>
+    <keyFields>CUSTOMER_SK</keyFields>
+    <joineeKeyFields>CUSTOMER_SK</joineeKeyFields>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:SparkSQL" name="Balance_in" label="Balance_in" checkpoint="true" statement="select&#xA;    ACCOUNT_NUMBER,&#xA;    ACCOUNT_RK,&#xA;    BALANCE_OUT + CREDIT_TURNORVER - DEBET_TURNORVER AS BALANCE_IN,&#xA;    BALANCE_OUT_RUB + CREDIT_TURNORVER_RUB - DEBET_TURNORVER_RUB AS BALANCE_IN_RUB,&#xA;    BALANCE_OUT,&#xA;    BALANCE_OUT_RUB,&#xA;    BANK_DATE,&#xA;    BRANCH_CODE,&#xA;    CHAR_TYPE,&#xA;    CREDIT_TURNORVER,&#xA;    CREDIT_TURNORVER_RUB,&#xA;    CURRENCY_CODE,&#xA;    CUSTOMER_SK,&#xA;    DEBET_TURNORVER,&#xA;    DEBET_TURNORVER_RUB,&#xA;    LEDGER_ACCOUNT,&#xA;    LEDGER_ACCOUNT_RK,&#xA;    NAME,&#xA;    ON_DATE&#xA;from in&#xA;where CREDIT_TURNORVER &lt;> 0 or DEBET_TURNORVER &lt;> 0">
+    <outputPort name="Spark_SQL_14out">
+      <fields name="ACCOUNT_NUMBER" dataTypeDomain="STRING"/>
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_IN" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_IN_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BANK_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="BRANCH_CODE" dataTypeDomain="STRING"/>
+      <fields name="CHAR_TYPE" dataTypeDomain="STRING"/>
+      <fields name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="CURRENCY_CODE" dataTypeDomain="STRING"/>
+      <fields name="CUSTOMER_SK" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="LEDGER_ACCOUNT" dataTypeDomain="STRING"/>
+      <fields name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME" dataTypeDomain="STRING"/>
+      <fields name="ON_DATE" dataTypeDomain="DATETIME"/>
+    </outputPort>
+    <sqlPorts name="in" alias="in">
+      <fields name="ACCOUNT_NUMBER" dataTypeDomain="STRING"/>
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="CURRENCY_CODE" dataTypeDomain="STRING"/>
+      <fields name="DATA_ACTUAL_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="DATA_ACTUAL_END_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="LEDGER_ACCOUNT" dataTypeDomain="STRING"/>
+      <fields name="BALANCE_OUT" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="ON_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="BANK_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BRANCH_CODE" dataTypeDomain="STRING"/>
+      <fields name="CHAR_TYPE" dataTypeDomain="STRING"/>
+      <fields name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="CUSTOMER_SK" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME" dataTypeDomain="STRING"/>
+    </sqlPorts>
+  </transformationSteps>
+  <transformationSteps xsi:type="etl:SparkSQL" name="Group_LEDGER_ACCOUNT" label="Group_LEDGER_ACCOUNT" statement="select&#xA;    LEDGER_ACCOUNT,&#xA;    sum(BALANCE_IN) as BALANCE_IN,&#xA;    sum(BALANCE_IN_RUB) as BALANCE_IN_RUB,&#xA;    sum(BALANCE_OUT) as BALANCE_OUT,&#xA;    sum(BALANCE_OUT_RUB) as BALANCE_OUT_RUB,&#xA;    BANK_DATE,&#xA;    BRANCH_CODE,&#xA;    CHAR_TYPE,&#xA;    sum(CREDIT_TURNORVER) as CREDIT_TURNORVER,&#xA;    sum(CREDIT_TURNORVER_RUB) as CREDIT_TURNORVER_RUB,&#xA;    sum(DEBET_TURNORVER) as DEBET_TURNORVER,&#xA;    sum(DEBET_TURNORVER_RUB) as DEBET_TURNORVER_RUB&#xA;from in&#xA;group by LEDGER_ACCOUNT, BANK_DATE, BRANCH_CODE, CHAR_TYPE">
+    <outputPort name="Spark_SQL_17out">
+      <fields name="LEDGER_ACCOUNT" dataTypeDomain="STRING"/>
+      <fields name="BALANCE_IN" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_IN_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BANK_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="BRANCH_CODE" dataTypeDomain="STRING"/>
+      <fields name="CHAR_TYPE" dataTypeDomain="STRING"/>
+      <fields name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+    </outputPort>
+    <sqlPorts name="in" alias="in">
+      <fields name="ACCOUNT_NUMBER" dataTypeDomain="STRING"/>
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_IN" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_IN_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="BANK_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="BRANCH_CODE" dataTypeDomain="STRING"/>
+      <fields name="CHAR_TYPE" dataTypeDomain="STRING"/>
+      <fields name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="CURRENCY_CODE" dataTypeDomain="STRING"/>
+      <fields name="CUSTOMER_SK" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="LEDGER_ACCOUNT" dataTypeDomain="STRING"/>
+      <fields name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME" dataTypeDomain="STRING"/>
+      <fields name="ON_DATE" dataTypeDomain="DATETIME"/>
+    </sqlPorts>
+  </transformationSteps>
+  <sources xsi:type="etl:SQLSource" name="DM_ACCOUNT_D" label="DM_ACCOUNT_D" statement="select&#xA;&#x9;ACCOUNT_NUMBER,&#xA;&#x9;ACCOUNT_RK,&#xA;&#x9;BRANCH_CODE,&#xA;&#x9;CHAR_TYPE,&#xA;&#x9;CURRENCY_CODE,&#xA;&#x9;DATA_ACTUAL_DATE,&#xA;&#x9;DATA_ACTUAL_END_DATE,&#xA;&#x9;LEDGER_ACCOUNT,&#xA;&#x9;LEDGER_ACCOUNT_RK&#xA;from DMA.DM_ACCOUNT_D&#xA;where date&amp;on_date between DATA_ACTUAL_DATE and DATA_ACTUAL_END_DATE&#xA;and DATA_ACTUAL_END_DATE between date&amp;on_date and last_day(date&amp;on_date)">
+    <outputPort name="SQL_6out">
+      <fields name="ACCOUNT_NUMBER" dataTypeDomain="STRING"/>
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="BRANCH_CODE" dataTypeDomain="STRING"/>
+      <fields name="CHAR_TYPE" dataTypeDomain="STRING"/>
+      <fields name="CURRENCY_CODE" dataTypeDomain="STRING"/>
+      <fields name="DATA_ACTUAL_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="DATA_ACTUAL_END_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="LEDGER_ACCOUNT" dataTypeDomain="STRING"/>
+      <fields name="LEDGER_ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:SQLSource" name="DM_BALANCE_F" label="DM_BALANCE_F" statement="select&#xA;&#x9;ACCOUNT_RK,&#xA;&#x9;BALANCE_OUT,&#xA;&#x9;BALANCE_OUT_RUB,&#xA;&#x9;ON_DATE&#xA;from DMA.DM_BALANCE_F&#xA;where ON_DATE = date&amp;on_date - 1">
+    <outputPort name="SQL_5out">
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT" dataTypeDomain="DECIMAL"/>
+      <fields name="BALANCE_OUT_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="ON_DATE" dataTypeDomain="DATETIME"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:SQLSource" name="DM_ACCOUNT_TURNOVER_F" label="DM_ACCOUNT_TURNOVER_F" statement="select&#xA;&#x9;ACCOUNT_RK,&#xA;&#x9;BANK_DATE,&#xA;&#x9;CREDIT_TURNORVER,&#xA;&#x9;CREDIT_TURNORVER_RUB,&#xA;&#x9;DEBET_TURNORVER,&#xA;&#x9;DEBET_TURNORVER_RUB,&#xA;&#x9;CUSTOMER_SK&#xA;from DMA.DM_ACCOUNT_TURNOVER_F&#xA;where BANK_DATE = date&amp;on_date">
+    <outputPort name="SQL_6out">
+      <fields name="ACCOUNT_RK" dataTypeDomain="DECIMAL"/>
+      <fields name="BANK_DATE" dataTypeDomain="DATETIME"/>
+      <fields name="CREDIT_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="CREDIT_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER" dataTypeDomain="DECIMAL"/>
+      <fields name="DEBET_TURNORVER_RUB" dataTypeDomain="DECIMAL"/>
+      <fields name="CUSTOMER_SK" dataTypeDomain="DECIMAL"/>
+    </outputPort>
+  </sources>
+  <sources xsi:type="etl:SQLSource" name="DM_CUSTOMER_D" label="DM_CUSTOMER_D" statement="select&#xA;&#x9;CUSTOMER_SK,&#xA;&#x9;NAME&#xA;from DMA.DM_CUSTOMER_D">
+    <outputPort name="SQL_11out">
+      <fields name="CUSTOMER_SK" dataTypeDomain="DECIMAL"/>
+      <fields name="NAME" dataTypeDomain="STRING"/>
+    </outputPort>
+  </sources>
+  <transitions name="b0b9a39e-b0fa-44c7-a550-0005130df917" start="//@sources.0/@outputPort" finish="//@transformationSteps.0/@inputPort"/>
+  <transitions name="29ec1565-9ef7-4c8c-9026-e4d5fdaabc22" start="//@sources.1/@outputPort" finish="//@transformationSteps.0/@joineePort"/>
+  <transitions name="c5a9a6b9-057b-40e2-a7f9-9434e0133091" start="//@transformationSteps.0/@outputPort" finish="//@transformationSteps.1/@inputPort"/>
+  <transitions name="7c651acb-67f3-4d8f-ba46-187d3e3dd148" start="//@sources.2/@outputPort" finish="//@transformationSteps.1/@joineePort"/>
+  <transitions name="bb83fd9b-29d9-490d-9638-79f210723087" start="//@transformationSteps.1/@outputPort" finish="//@transformationSteps.2/@inputPort"/>
+  <transitions name="507c6344-f24b-4306-902a-e1f1c6878be8" start="//@sources.3/@outputPort" finish="//@transformationSteps.2/@joineePort"/>
+  <transitions name="1b8440c9-26fe-479f-8c6d-7267960cb204" start="//@transformationSteps.2/@outputPort" finish="//@transformationSteps.3/@sqlPorts.0"/>
+  <transitions name="3508b165-c3fe-4385-9663-9c2d742c547a" start="//@transformationSteps.3/@outputPort" finish="//@targets.0/@inputPort"/>
+  <transitions name="1242ff4f-2fa3-4f75-ac76-f98004656261" start="//@transformationSteps.3/@outputPort" finish="//@transformationSteps.4/@sqlPorts.0"/>
+  <transitions name="32fe4fa0-6e54-4227-b957-89a1cb11dd0a" start="//@transformationSteps.4/@outputPort" finish="//@targets.1/@inputPort"/>
+  <auditInfo changeUser="admin" changeDateTime="2022-05-24T12:12:25.572+0000" createUser="admin" createDateTime="2022-05-20T12:22:48.562+0000"/>
+</etl:Transformation>

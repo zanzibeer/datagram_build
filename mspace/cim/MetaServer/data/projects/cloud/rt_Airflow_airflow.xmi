@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rt:Airflow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:rt="http://www.neoflex.ru/meta/rt" name="airflow" http="http://airflow-webserver:8880/" dagsFolder="/opt/airflow/dags" livyConnId="livy_default" apiUser="airflow" apiPassword="airflow" home="/user" user="root" isDefault="true"/>
