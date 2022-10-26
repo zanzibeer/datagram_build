@@ -49,6 +49,7 @@ pipeline {
               steps {
                 container('kaniko') {
                   script {
+                    sh "ls -la /kaniko/workspace/datagram_build"
                     sh "/kaniko/executor --dockerfile /kaniko/workspace/datagram_build/Dockerfile \
                                      --context /kaniko/workspace/datagram_build \
                                      --force \
