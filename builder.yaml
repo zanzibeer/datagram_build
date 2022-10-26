@@ -12,6 +12,8 @@ spec:
       volumeMounts:
         - name: kaniko-secret
           mountPath: /kaniko/.docker
+        - name: kaniko-kaniko-workspace
+          mountPath: /home/jenkins/agent/workspace
   volumes:
     - name: kaniko-secret
       secret:
@@ -19,3 +21,6 @@ spec:
         items:
           - key: .dockerconfigjson
             path: config.json
+    - name: kaniko-workspace
+          persistentVolumeClaim:
+            claimName: jenkins-build
