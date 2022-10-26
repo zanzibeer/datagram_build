@@ -1,7 +1,8 @@
 FROM maven:3.6.3-openjdk-8-slim as builder
+VOLUME /kaniko/workspace /kaniko/workspace/datagram
 RUN apt-get update && apt-get install -y git \
-  && git clone https://github.com/neoflex-consulting/datagram.git \
-  && cd datagram && pwd \
+  && git clone https://github.com/neoflex-consulting/datagram.git -b frontend /kaniko/workspace/datagram \
+  && cd /kaniko/workspace/datagram && pwd \
   && mvn -q clean install
 
 FROM maven:3.6.3-openjdk-8-slim
