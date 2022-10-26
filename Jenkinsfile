@@ -26,21 +26,7 @@ pipeline {
 
     agent {
         kubernetes {
-            label 'build-service-pod'
-            defaultContainer 'jnlp'
-            yaml """
-apiVersion: v1
-kind: Pod
-metadata:
-  labels:
-    job: build-service
-spec:
-  containers:
-  - name: docker
-    image: docker:git
-    command: ["cat"]
-    tty: true
-"""
+            yamlFile 'builder.yaml'
         }
     }
 
