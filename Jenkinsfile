@@ -21,7 +21,7 @@ pipeline {
 
     options {
         ansiColor('xterm')
-        skipDefaultCheckout true
+//         skipDefaultCheckout true
     }
 
     agent {
