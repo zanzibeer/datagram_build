@@ -12,7 +12,7 @@ spec:
       volumeMounts:
         - name: kaniko-secret
           mountPath: /kaniko/.docker
-        - name: kaniko-kaniko-workspace
+        - name: kaniko-workspace
           mountPath: /home/jenkins/agent/workspace
   volumes:
     - name: kaniko-secret
