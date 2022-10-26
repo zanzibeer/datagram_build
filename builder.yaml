@@ -17,7 +17,7 @@ spec:
     - name: git
       image: alpine/git
       command: ["cat"]
-      tty: true      
+      tty: true
       volumeMounts:
         - name: kaniko-workspace
           mountPath: /kaniko/workspace
