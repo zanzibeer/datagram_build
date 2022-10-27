@@ -36,10 +36,10 @@ pipeline {
             steps {
                 container('git') {
                     script {
-//                        sh "chmod -R 666 /kaniko/workspace"
-//                        sh "cd /kaniko/workspace/"
-                        sh "rm -rf /kaniko/workspace/datagram_build"
+                        sh "rm -rf /kaniko/workspace/datagram_build/*"
                         sh "git clone https://github.com/zanzibeer/${params.CHART_NAME}_build.git /kaniko/workspace/datagram_build"
+                        sh "rm -rf /kaniko/workspace/datagram/*"
+                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b frontend /kaniko/workspace/datagram"                            
                     }
                 }
             }
@@ -49,12 +49,12 @@ pipeline {
             steps {
                 container('maven') {
                     script {
-                        sh "apt-get update && apt-get install -y git"
+//                        sh "apt-get update && apt-get install -y git"
 //                        sh "git checkout frontend && git pull"
-                        sh "rm -rf /kaniko/workspace/datagram/*"
-                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b frontend"
-//                        sh "cd /kaniko/workspace/datagram"
-                        sh "mvn clean install"
+//                        sh "rm -rf /kaniko/workspace/datagram/*"
+//                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b frontend"
+                        sh "cd /kaniko/workspace/datagram && mvn clean install"
+//                        sh "mvn clean install"
                     }
                 }
             }
