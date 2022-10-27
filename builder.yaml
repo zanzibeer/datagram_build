@@ -31,7 +31,6 @@ spec:
         - name: kaniko-workspace
           mountPath: /kaniko/workspace
           readOnly: false
-      workingDir: /kaniko/workspace/datagram
   volumes:
     - name: kaniko-secret
       secret:
