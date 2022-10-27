@@ -23,7 +23,6 @@ spec:
         - name: kaniko-workspace
           mountPath: /kaniko/workspace
           readOnly: false
-      workingDir: /kaniko/workspace
     - name: maven
       image: maven:3.6.3-openjdk-8-slim
       command: ["cat"]
