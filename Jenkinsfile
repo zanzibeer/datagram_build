@@ -55,7 +55,7 @@ pipeline {
 //                        sh "apt-get update && apt-get install -y git"
 //                        sh "git checkout frontend && git pull"
 //                        sh "rm -rf /kaniko/workspace/datagram/*"
-//                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b frontend"
+//                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b master"
 //                        sh "pwd"
                         sh "mvn clean install -f /root/.m2/datagram/pom.xml"
 //                        sh "mvn clean install"
