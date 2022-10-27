@@ -18,11 +18,11 @@ COPY ./datagram/runtime/target/ru.neoflex.meta.etl.spark.runtime-$VERSION.jar ${
 COPY ./datagram/spark2lib/.flattened-pom.xml ${MAVEN_CACHE}/ru/neoflex/meta/etl2/ru.neoflex.meta.etl2.spark.spark2lib/$VERSION/ru.neoflex.meta.etl2.spark.spark2lib-$VERSION.pom
 COPY ./datagram/runtime/.flattened-pom.xml ${MAVEN_CACHE}/ru/neoflex/meta/etl/ru.neoflex.meta.etl.spark.runtime/$VERSION/ru.neoflex.meta.etl.spark.runtime-$VERSION.pom
 COPY ./datagram/.flattened-pom.xml ${MAVEN_CACHE}/ru/neoflex/parent/$VERSION/parent-$VERSION.pom
-COPY .datagram_build/application.properties $DATAGRAM_HOME/application.properties
-COPY .datagram_build/ldap.properties $DATAGRAM_HOME/ldap.properties
-COPY .datagram_build/entrypoint.sh $DATAGRAM_HOME/entrypoint.sh
-COPY .datagram_build/cmd.sh $DATAGRAM_HOME/cmd.sh
-COPY .datagram_build/mspace $DEPLOY_DIR
+COPY ./datagram_build/application.properties $DATAGRAM_HOME/application.properties
+COPY ./datagram_build/ldap.properties $DATAGRAM_HOME/ldap.properties
+COPY ./datagram_build/entrypoint.sh $DATAGRAM_HOME/entrypoint.sh
+COPY ./datagram_build/cmd.sh $DATAGRAM_HOME/cmd.sh
+COPY ./datagram_build/mspace $DEPLOY_DIR
 
 WORKDIR $DATAGRAM_HOME
 RUN chmod +x ./entrypoint.sh
