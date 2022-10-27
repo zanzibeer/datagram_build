@@ -56,7 +56,7 @@ pipeline {
 //                        sh "rm -rf /kaniko/workspace/datagram/*"
 //                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b frontend"
 //                        sh "pwd"
-                        sh "mvn clean install -f /kaniko/workspace/datagram/pom.xml"
+                        sh "mvn clean install -f /root/.m2/datagram/pom.xml"
 //                        sh "mvn clean install"
                     }
                 }
