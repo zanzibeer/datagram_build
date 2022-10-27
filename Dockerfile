@@ -3,7 +3,7 @@ VOLUME /kaniko/workspace /kaniko/workspace/datagram
 RUN apt-get update && apt-get install -y git \
   && git clone https://github.com/neoflex-consulting/datagram.git -b frontend /kaniko/workspace/datagram \
   && cd /kaniko/workspace/datagram && pwd \
-  && mvn -q clean install
+  && mvn -q clean install -DskipTests
 
 FROM maven:3.6.3-openjdk-8-slim
 
