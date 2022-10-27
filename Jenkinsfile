@@ -53,7 +53,7 @@ pipeline {
 //                        sh "git checkout frontend && git pull"
 //                        sh "rm -rf /kaniko/workspace/datagram/*"
 //                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b frontend"
-                        sh "pwd"
+//                        sh "pwd"
                         sh "cd /kaniko/workspace/datagram && mvn clean install"
 //                        sh "mvn clean install"
                     }
