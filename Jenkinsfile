@@ -38,11 +38,10 @@ pipeline {
                     script {
 //                        sh "rm -rf /kaniko/workspace/datagram_build"
 //                        sh "git clone https://github.com/zanzibeer/${params.CHART_NAME}_build.git /kaniko/workspace/datagram_build"
-                        sh "cd datagram_build && git pull"
+                        sh "git pull ./datagram_build"
 //                        sh "rm -rf /kaniko/workspace/datagram"
 //                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b frontend /kaniko/workspace/datagram"  
-                        
-                        sh "cd datagram && git pull"
+                        sh "git pull ./datagram"
                     }
                 }
             }
