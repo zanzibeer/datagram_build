@@ -12,12 +12,12 @@ ENV SERVER_PORT 8089
 ENV MAVEN_REPO=/root/.m2/repository
 ENV MAVEN_CACHE=/opt/maven-cache
 
-COPY /kaniko/workspace/datagram/mserver/target/mserver-$VERSION.jar /opt/datagram/mserver.jar
-COPY /kaniko/workspace/datagram/spark2lib/target/ru.neoflex.meta.etl2.spark.spark2lib-$VERSION.jar ${MAVEN_CACHE}/ru/neoflex/meta/etl2/ru.neoflex.meta.etl2.spark.spark2lib/$VERSION/ru.neoflex.meta.etl2.spark.spark2lib-$VERSION.jar
-COPY /kaniko/workspace/datagram/runtime/target/ru.neoflex.meta.etl.spark.runtime-$VERSION.jar ${MAVEN_CACHE}/ru/neoflex/meta/etl/ru.neoflex.meta.etl.spark.runtime/$VERSION/ru.neoflex.meta.etl.spark.runtime-$VERSION.jar
-COPY /kaniko/workspace/datagram/spark2lib/.flattened-pom.xml ${MAVEN_CACHE}/ru/neoflex/meta/etl2/ru.neoflex.meta.etl2.spark.spark2lib/$VERSION/ru.neoflex.meta.etl2.spark.spark2lib-$VERSION.pom
-COPY /kaniko/workspace/datagram/runtime/.flattened-pom.xml ${MAVEN_CACHE}/ru/neoflex/meta/etl/ru.neoflex.meta.etl.spark.runtime/$VERSION/ru.neoflex.meta.etl.spark.runtime-$VERSION.pom
-COPY /kaniko/workspace/datagram/.flattened-pom.xml ${MAVEN_CACHE}/ru/neoflex/parent/$VERSION/parent-$VERSION.pom
+COPY /root/.m2/datagram/mserver/target/mserver-$VERSION.jar /opt/datagram/mserver.jar
+COPY /root/.m2/datagram/spark2lib/target/ru.neoflex.meta.etl2.spark.spark2lib-$VERSION.jar ${MAVEN_CACHE}/ru/neoflex/meta/etl2/ru.neoflex.meta.etl2.spark.spark2lib/$VERSION/ru.neoflex.meta.etl2.spark.spark2lib-$VERSION.jar
+COPY /root/.m2/datagram/runtime/target/ru.neoflex.meta.etl.spark.runtime-$VERSION.jar ${MAVEN_CACHE}/ru/neoflex/meta/etl/ru.neoflex.meta.etl.spark.runtime/$VERSION/ru.neoflex.meta.etl.spark.runtime-$VERSION.jar
+COPY /root/.m2/datagram/spark2lib/.flattened-pom.xml ${MAVEN_CACHE}/ru/neoflex/meta/etl2/ru.neoflex.meta.etl2.spark.spark2lib/$VERSION/ru.neoflex.meta.etl2.spark.spark2lib-$VERSION.pom
+COPY /root/.m2/datagram/runtime/.flattened-pom.xml ${MAVEN_CACHE}/ru/neoflex/meta/etl/ru.neoflex.meta.etl.spark.runtime/$VERSION/ru.neoflex.meta.etl.spark.runtime-$VERSION.pom
+COPY /root/.m2/datagram/.flattened-pom.xml ${MAVEN_CACHE}/ru/neoflex/parent/$VERSION/parent-$VERSION.pom
 COPY ./application.properties $DATAGRAM_HOME/application.properties
 COPY ./ldap.properties $DATAGRAM_HOME/ldap.properties
 COPY ./entrypoint.sh $DATAGRAM_HOME/entrypoint.sh
