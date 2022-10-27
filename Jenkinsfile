@@ -44,12 +44,25 @@ pipeline {
                 }
             }
         }
+            
+        stage('Build Jar') {
+            steps {
+                container('maven') {
+                    script {
+                        sh "apt-get update && apt-get install -y git"
+                        sh "cd /kaniko/workspace/datagram"
+                        sh "git checkout frontend && git pull"
+                        sh "mvn clean install"
+                    }
+                }
+            }
+        }
 
         stage('Kaniko Build & Push Image') {
               steps {
                 container('kaniko') {
                   script {
-                    sh "ls -la /kaniko/workspace"
+//                    sh "ls -la /kaniko/workspace"
                     sh "/kaniko/executor --dockerfile /kaniko/workspace/datagram_build/Dockerfile \
                                      --context /kaniko/workspace/datagram_build \
                                      --force \
