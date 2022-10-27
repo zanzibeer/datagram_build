@@ -69,8 +69,8 @@ pipeline {
                 container('kaniko') {
                   script {
 //                    sh "ls -la /kaniko/workspace"
-                    sh "/kaniko/executor --dockerfile /kaniko/workspace/datagram_build/Dockerfile \
-                                     --context /kaniko/workspace/datagram_build \
+                    sh "/kaniko/executor --dockerfile /root/.m2/datagram_build/Dockerfile \
+                                     --context /root/.m2 \
                                      --force \
                                      --destination=zanzibeer/${params.CHART_NAME}:${params.IMAGE_TAG}"
                   }
