@@ -29,7 +29,7 @@ spec:
       tty: true
       volumeMounts:
         - name: kaniko-workspace
-          mountPath: /kaniko/workspace
+          mountPath: /root/.m2
           readOnly: false
   volumes:
     - name: kaniko-secret
