@@ -9,9 +9,9 @@ properties([
                                 name: 'IMAGE_TAG',
                                 defaultValue: 'latest'
                         ),
-                        choiseParam(
+                        choiceParam(
                                 name: 'BRANCH',
-                                choises: ['master', 'frontend']
+                                choices: ['master', 'frontend']
                         )
                 ]
         )
