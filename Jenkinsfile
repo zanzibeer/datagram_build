@@ -58,8 +58,8 @@ pipeline {
               steps {
                 container('kaniko') {
                   script {
-                    sh "/kaniko/executor --dockerfile /root/.m2/datagram_build/Dockerfile \
-                                     --context /root/.m2 \
+                    sh "/kaniko/executor --dockerfile /root/builder/datagram_build/Dockerfile \
+                                     --context /root/builder \
                                      --force \
                                      --destination=zanzibeer/${params.CHART_NAME}:${params.IMAGE_TAG}"
                   }

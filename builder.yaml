@@ -13,7 +13,7 @@ spec:
         - name: kaniko-secret
           mountPath: /kaniko/.docker
         - name: kaniko-workspace
-          mountPath: /root/.m2
+          mountPath: /root/builder
           readOnly: false
     - name: git
       image: alpine/git
