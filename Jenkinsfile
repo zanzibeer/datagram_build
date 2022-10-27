@@ -41,7 +41,7 @@ pipeline {
                         sh "git -C /kaniko/workspace/datagram_build pull"
 //                        sh "rm -rf /kaniko/workspace/datagram"
 //                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b frontend /kaniko/workspace/datagram"
-                        sh "git -C /kaniko/workspace/datagram checkout frontend" 
+                        sh "git -C /kaniko/workspace/datagram checkout master" 
                         sh "git -C /kaniko/workspace/datagram pull"
                     }
                 }
