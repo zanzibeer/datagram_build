@@ -5,23 +5,23 @@ properties([
                                 name: 'CHART_NAME',
                                 defaultValue: 'datagram'
                         ),
-                        choiceParam(
+                        stringParam(
                                 name: 'IMAGE_TAG',
-                                choices: ['latest', 'redesign-0.1']
+                                defaultValue: 'latest'
+                        ),
+                        choiseParam(
+                                name: 'BRANCH',
+                                choises: ['master', 'frontend']
                         )
                 ]
         )
 ])
 
-// def branch
-// def revision
-// def registryIp
-
 pipeline {
 
     options {
         ansiColor('xterm')
-//         skipDefaultCheckout true
+        skipDefaultCheckout true
     }
 
     agent {
@@ -31,13 +31,35 @@ pipeline {
     }
 
     stages {
+        
+        stage('Clone git repo') {
+            steps {
+                container('git') {
+                    script {
+                        sh "git -C /kaniko/workspace/datagram_build pull"
+                        sh "git -C /kaniko/workspace/datagram checkout ${params.BRANCH}" 
+                        sh "git -C /kaniko/workspace/datagram pull"
+                    }
+                }
+            }
+        }
+            
+        stage('Build Jar') {
+            steps {
+                container('maven') {
+                    script {
+                        sh "mvn clean install -f /root/.m2/datagram/pom.xml"
+                    }
+                }
+            }
+        }
 
         stage('Kaniko Build & Push Image') {
               steps {
                 container('kaniko') {
                   script {
-                    sh "/kaniko/executor --dockerfile `pwd`/Dockerfile \
-                                     --context `pwd` \
+                    sh "/kaniko/executor --dockerfile /root/.m2/datagram_build/Dockerfile \
+                                     --context /root/.m2 \
                                      --force \
                                      --destination=zanzibeer/${params.CHART_NAME}:${params.IMAGE_TAG}"
                   }

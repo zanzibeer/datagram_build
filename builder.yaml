@@ -12,6 +12,25 @@ spec:
       volumeMounts:
         - name: kaniko-secret
           mountPath: /kaniko/.docker
+        - name: kaniko-workspace
+          mountPath: /root/.m2
+          readOnly: false
+    - name: git
+      image: alpine/git
+      command: ["cat"]
+      tty: true
+      volumeMounts:
+        - name: kaniko-workspace
+          mountPath: /kaniko/workspace
+          readOnly: false
+    - name: maven
+      image: maven:3.6.3-openjdk-8-slim
+      command: ["cat"]
+      tty: true
+      volumeMounts:
+        - name: kaniko-workspace
+          mountPath: /root/.m2
+          readOnly: false
   volumes:
     - name: kaniko-secret
       secret:
@@ -19,3 +38,6 @@ spec:
         items:
           - key: .dockerconfigjson
             path: config.json
+    - name: kaniko-workspace
+      persistentVolumeClaim:
+        claimName: jenkins-build
