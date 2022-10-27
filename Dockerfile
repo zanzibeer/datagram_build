@@ -27,5 +27,6 @@ COPY ./datagram_build/mspace $DEPLOY_DIR
 WORKDIR $DATAGRAM_HOME
 RUN rm -rf /root/.m2/repository/*
 RUN chmod +x ./entrypoint.sh
+RUN chmod +x ./cmd.sh
 ENTRYPOINT ["./entrypoint.sh"]
 CMD ["./cmd.sh"]
