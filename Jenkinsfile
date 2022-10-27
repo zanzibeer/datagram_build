@@ -5,17 +5,17 @@ properties([
                                 name: 'CHART_NAME',
                                 defaultValue: 'datagram'
                         ),
-                        choiceParam(
+                        stringParam(
                                 name: 'IMAGE_TAG',
-                                choices: ['latest', 'redesign-0.1', '0.1']
+                                defaultValue: 'latest'
+                        ),
+                        choiseParam(
+                                name: 'BRANCH',
+                                choises: ['master', 'frontend']
                         )
                 ]
         )
 ])
-
-// def branch
-// def revision
-// def registryIp
 
 pipeline {
 
@@ -36,12 +36,8 @@ pipeline {
             steps {
                 container('git') {
                     script {
-//                        sh "rm -rf /kaniko/workspace/datagram_build"
-//                        sh "git clone https://github.com/zanzibeer/${params.CHART_NAME}_build.git /kaniko/workspace/datagram_build"
                         sh "git -C /kaniko/workspace/datagram_build pull"
-//                        sh "rm -rf /kaniko/workspace/datagram"
-//                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b frontend /kaniko/workspace/datagram"
-                        sh "git -C /kaniko/workspace/datagram checkout master" 
+                        sh "git -C /kaniko/workspace/datagram checkout ${params.BRANCH}" 
                         sh "git -C /kaniko/workspace/datagram pull"
                     }
                 }
@@ -52,13 +48,7 @@ pipeline {
             steps {
                 container('maven') {
                     script {
-//                        sh "apt-get update && apt-get install -y git"
-//                        sh "git checkout frontend && git pull"
-//                        sh "rm -rf /kaniko/workspace/datagram/*"
-//                        sh "git clone https://github.com/neoflex-consulting/datagram.git -b master"
-//                        sh "pwd"
                         sh "mvn clean install -f /root/.m2/datagram/pom.xml"
-//                        sh "mvn clean install"
                     }
                 }
             }
@@ -68,7 +58,6 @@ pipeline {
               steps {
                 container('kaniko') {
                   script {
-//                    sh "ls -la /kaniko/workspace"
                     sh "/kaniko/executor --dockerfile /root/.m2/datagram_build/Dockerfile \
                                      --context /root/.m2 \
                                      --force \
