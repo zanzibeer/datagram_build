@@ -36,10 +36,12 @@ pipeline {
             steps {
                 container('git') {
                     script {
-                        sh "git -C /kaniko/workspace/datagram_build pull"
-                        sh "git -C /kaniko/workspace/datagram stash"
-                        sh "git -C /kaniko/workspace/datagram checkout ${params.BRANCH}" 
-                        sh "git -C /kaniko/workspace/datagram pull"
+//                        sh "git -C /kaniko/workspace/datagram_build pull"
+//                        sh "git -C /kaniko/workspace/datagram stash"
+//                        sh "git -C /kaniko/workspace/datagram checkout ${params.BRANCH}" 
+//                        sh "git -C /kaniko/workspace/datagram pull"
+                        sh "git clone https://github.com/zanzibeer/datagram_build.git"
+                        sh "git clone https://github.com/neoflex-consulting/datagram.git"
                     }
                 }
             }
