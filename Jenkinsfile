@@ -7,7 +7,7 @@ properties([
                         ),
                         stringParam(
                                 name: 'IMAGE_TAG',
-                                defaultValue: 'latest'
+                                defaultValue: ''
                         ),
                         choiceParam(
                                 name: 'BRANCH',
@@ -35,8 +35,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    if (APP_VERSION=="") {
-                        sh "echo Enter parameter value: APP_VERSION"
+                    if (IMAGE_TAG=="") {
+                        sh "echo Enter parameter value: IMAGE_TAG"
                         currentBuild.result = 'FAILURE'
 //                       sh "exit"
                     }
