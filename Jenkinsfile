@@ -36,8 +36,8 @@ pipeline {
             steps {
                 script {
                     if (IMAGE_TAG=="") {
-                        "echo Enter parameter value: IMAGE_TAG"
-                        currentBuild.result = 'FAILURE'
+                        error("echo Enter parameter value: IMAGE_TAG")
+                        currentBuild.result = 'ABORTED'
 //                       sh "exit"
                     }
                 }
