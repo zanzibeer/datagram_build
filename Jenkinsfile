@@ -32,6 +32,18 @@ pipeline {
 
     stages {
         
+        stage('Checkout') {
+            steps {
+                script {
+                    if APP_VERSION=="" {
+                        sh "echo Enter parameter value: APP_VERSION"
+                        currentBuild.result = 'FAILURE'
+//                       sh "exit"
+                    }
+                }
+            }
+        }
+
         stage('Clone git repo') {
             steps {
                 container('git') {
